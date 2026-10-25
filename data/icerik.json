@@ -1,5 +1,5 @@
 {
- "surum": "2026-10-25T00:34:25Z",
+ "surum": "2026-10-25T00:57:42Z",
  "isimler": {
   "abdulkadir-geylani": {
    "ad": "Abdülkadir Geylani",
@@ -179,6 +179,11 @@
      "ad": "Gazali",
      "not": "İslam dünyasındaki Aristotelesçileri eleştirdi.",
      "tur": "karsi"
+    },
+    {
+     "ad": "Plotinos",
+     "tur": "etkiledi",
+     "not": "Akıl'ın kendi kendini düşünmesi fikri Plotinos'un sisteminin bir basamağı oldu."
     }
    ],
    "dogum": -384,
@@ -262,6 +267,10 @@
     {
      "aciklama": "Sanat hayatı taklit eder; tragedya izleyene acıma ve korku yaşatıp onu rahatlatır (Örneğin: acıklı bir film izleyip ağladıktan sonra hafiflemiş hissetmek).",
      "baslik": "Taklit ve arınma"
+    },
+    {
+     "baslik": "Trajik kusur (hamartia)",
+     "aciklama": "Tragedya kahramanı kötü biri değildir; bir hata ya da zaafı yüzünden düşer ve seyirci onu tam da bu kusur yüzünden kendine yakın bulur. Ulus Baker'e göre kusurun arkasında her zaman bir ışıldama vardır (Kral Oidipus'un gerçeği öğrenme inadının onu yıkması)."
     }
    ],
    "gelenek": "Felsefe",
@@ -1729,6 +1738,11 @@
      "ad": "Nefs-i emmare",
      "not": "Tasavvufta insanı kötülüğe sürükleyen nefs; Freud'un alt benliğiyle sık karşılaştırılır.",
      "tur": "akraba"
+    },
+    {
+     "ad": "Dostoyevski",
+     "tur": "beslendi",
+     "not": "Karamazov Kardeşler'i 'Dostoyevski ve Baba Katli' denemesinin merkezine koydu."
     }
    ],
    "dogum": 1856,
@@ -1971,6 +1985,11 @@
      "ad": "Hume",
      "not": "Neden-sonucu alışkanlığa bağlaması.",
      "tur": "akraba"
+    },
+    {
+     "ad": "Plotinos",
+     "tur": "karsi",
+     "not": "Tehafüt'te eleştirdiği filozofların sudur (taşma) anlayışının kökü Plotinos'a dayanır."
     }
    ],
    "dogum": 1058,
@@ -2188,6 +2207,11 @@
      "ad": "Leibniz",
      "not": "Sonsuz yaklaşma fikri onun 'kötü sonsuz' eleştirisine girer.",
      "tur": "karsi"
+    },
+    {
+     "ad": "Turgenyev",
+     "tur": "etkiledi",
+     "not": "Berlin'de Hegel okuyan Rus gençlerinden biriydi."
     }
    ],
    "dogum": 1770,
@@ -2426,6 +2450,11 @@
      "ad": "Leibniz",
      "not": "Her parçanın bütün evreni yansıtan bir ayna olması.",
      "tur": "akraba"
+    },
+    {
+     "ad": "Plotinos",
+     "tur": "akraba",
+     "not": "Tek kaynaktan taşma ile tecelli arasında sık kurulan benzerlik; ama İbn Arabi'de kaynak 'bilinmek isteyen' Tanrı'dır."
     }
    ],
    "dogum": 1165,
@@ -3144,6 +3173,11 @@
      "ad": "Skolastik",
      "not": "Kötülük sorusunu skolastikten devraldı.",
      "tur": "beslendi"
+    },
+    {
+     "ad": "Baumgarten",
+     "tur": "etkiledi",
+     "not": "Leibniz-Wolff okulundan geldi; Leibniz'in 'bulanık ama zengin' duyusal bilgisini estetiğin konusu yaptı."
     }
    ],
    "dogum": 1646,
@@ -3209,6 +3243,10 @@
     {
      "aciklama": "Rubicon'u geçen Sezar, Sezar'ın tamamı değildir; Adem yalnızca günah işleyen değil, günaha direnebilecek güçleri de taşıyan biridir.",
      "baslik": "Birey tek bir eylemden ibaret değildir"
+    },
+    {
+     "baslik": "Mümkün dünyalardan bir estetik",
+     "aciklama": "Ulus Baker'in zarafet dersindeki önerisi: zarif bulduğumuz şey bize bu dünyanın yanında başka bir dünyanın da mümkün olduğunu sezdirendir. Leibniz bunu kendisi söylemedi; mümkün dünyalar fikri bu estetiğe kapı açar (karada paytak yürüyen yengeçte denizin, onun öteki dünyasının sezilmesi)."
     }
    ],
    "gelenek": "Felsefe",
@@ -4359,6 +4397,11 @@
      "ad": "Eisenstein",
      "not": "",
      "tur": "beslendi"
+    },
+    {
+     "ad": "Leibniz",
+     "tur": "beslendi",
+     "not": "Bakış açısı, mümkün dünyalar ve zarafet derslerinin ekseni; Deleuze'ün Kıvrım'ı üzerinden."
     }
    ],
    "dogum": 1960,
@@ -4583,6 +4626,426 @@
     "artist": "Bilinmiyor",
     "lic": "Kamu malı",
     "page": "https://commons.wikimedia.org/wiki/File:ANWhitehead.jpg"
+   }
+  },
+  "turgenyev": {
+   "ad": "İvan Turgenyev",
+   "dogum": 1818,
+   "yil": "1818–1883",
+   "yer": "Oryol (Rusya) doğumlu; Baden-Baden ve Paris",
+   "gelenek": "Edebiyat",
+   "ozet": "Rus romanını Avrupa'ya tanıtan yazar; 'nihilist' kelimesini meşhur eden Babalar ve Oğullar'ın ve eyleme geçemeyen 'gereksiz adam'ın anlatıcısı.",
+   "sorun": "Rusya'nın eski ile yeni, köylü ile toprak ağası, babalar ile oğullar arasında yarılmasını taraf tutmadan anlatmak; düşünen ama yapamayan aydının çaresizliğini göstermek.",
+   "donem": "Çarlık Rusya'sı: nüfusun çoğu toprağa bağlı köle (serf), Avrupa'da 1848 devrimleri, 1861'de serfliğin kaldırılması. Aydınlar Batıcılar ve Slavcılar diye ikiye bölünmüş durumda.",
+   "hikaye": "Oryol'da zengin bir toprak ağası ailesinde doğdu. Annesi Varvara Petrovna yüzlerce köylünün sahibi, köylülerini kırbaçlatan sert bir kadındı; Turgenyev serfliğe olan nefretini çocukluğunda bu evde öğrendi.\n\nMoskova ve Petersburg'da okuduktan sonra Berlin'e gidip Hegel felsefesi çalıştı. Rusya'ya döndüğünde memur oldu ama kısa sürede edebiyata geçti. 1852'de yayımlanan Avcının Notları, köylüleri ilk kez duyguları ve onurlarıyla anlatan bir kitaptı; Çar II. Aleksandr'ın 1861'de serfliği kaldırmasında payı olduğu söylenir. Aynı yıl Gogol için yazdığı bir anma yazısı yüzünden tutuklanıp bir buçuk yıl çiftliğine sürüldü.\n\nHayatının büyük kısmını evli bir şarkıcı olan Pauline Viardot'nun yakınında geçirdi; onun ailesinin peşinden Baden-Baden'e, Paris'e taşındı. Flaubert, George Sand, Henry James gibi isimlerle dosttu ve Avrupa'da tanınan ilk büyük Rus yazarı oldu. 1862'de yayımladığı Babalar ve Oğullar hem eski kuşağı hem de gençleri kızdırdı: herkes Bazarov'da kendine yapılmış bir hakaret gördü. Paris yakınlarındaki Bougival'de öldü; cenazesi Petersburg'a getirildi.",
+   "kisilik": "Uzun boylu, iri yapılı, gümüş saçlı, 'nazik dev' denilen bir adamdı; ama bu cüssesinden beklenmeyecek kadar ince bir sesi vardı. Avlanmaya tutkundu, köpeklerine çok düşkündü. Kavgadan kaçar, herkesi idare etmeye çalışırdı; buna rağmen Tolstoy'la bir tartışma neredeyse düelloya varıyordu, iki yazar on yedi yıl konuşmadı.\n\nKararsızlığı dillere destandı; kendi romanlarındaki 'gereksiz adam'lara benzediğini kendisi de bilirdi. Ölüm döşeğinden Tolstoy'a, ahlak yazılarını bırakıp yeniden romana dönmesi için yalvaran bir mektup yazdı. Dostoyevski ise onu hiç sevmedi ve Ecinniler'de kendini beğenmiş bir yazar karakteriyle alay etti.",
+   "fikirler": [
+    {
+     "baslik": "Gereksiz adam",
+     "aciklama": "Eğitimli, duyarlı, iyi niyetli ama hayatta hiçbir şey yapamayan aydın tipi. 'Gereksiz Bir Adamın Günlüğü' (1850) ile bu adı yaygınlaştırdı (her şeyi bilip tartışan ama tek bir işe girişemeyen biri)."
+    },
+    {
+     "baslik": "Nihilist",
+     "aciklama": "Babalar ve Oğullar'daki Bazarov hiçbir otoriteye, geleneğe, sanata inanmaz; yalnızca bilime ve işe yarayana güvenir. Kelime bu romanla meşhur oldu (eski her şeyi 'saçma' diye reddeden, yalnızca deneyle kanıtlanana inanan bir tıp öğrencisi)."
+    },
+    {
+     "baslik": "Hamlet ve Don Kişot",
+     "aciklama": "1860'taki ünlü konuşmasında insanları ikiye ayırır: düşünüp şüphe eden ama yapamayan Hamletler ve inanıp gülünç de olsa harekete geçen Don Kişotlar (aynı haksızlık karşısında biri günlerce düşünür, öteki hemen dilekçe yazar)."
+    },
+    {
+     "baslik": "Kuşaklar çatışması",
+     "aciklama": "Babalar ile oğullar aynı evde bambaşka dünyalarda yaşar; Turgenyev ikisini de ne tamamen haklı ne tamamen haksız gösterir (dedesinin ahlakıyla torununun telefonu arasındaki uçurum)."
+    },
+    {
+     "baslik": "Bağırmayan gerçekçilik",
+     "aciklama": "Vaaz vermeden, taraf tutmadan anlatır; okur kararını kendi verir. Avcının Notları köleliği suçlamadan, köylülerin insanlığını göstererek eleştirdi."
+    }
+   ],
+   "eserler": [
+    {
+     "ad": "Avcının Notları",
+     "yil": "1852",
+     "not": "Köylülerin insan olarak anlatıldığı öyküler."
+    },
+    {
+     "ad": "Rudin",
+     "yil": "1856",
+     "not": "Güzel konuşan ama hiçbir şey yapamayan bir aydının romanı."
+    },
+    {
+     "ad": "Asilzadeler Yuvası",
+     "yil": "1859",
+     "not": ""
+    },
+    {
+     "ad": "İlk Aşk",
+     "yil": "1860",
+     "not": "Uzun öykü; en çok okunan eserlerinden."
+    },
+    {
+     "ad": "Babalar ve Oğullar",
+     "yil": "1862",
+     "not": "Bazarov ve nihilizm."
+    },
+    {
+     "ad": "Duman",
+     "yil": "1867",
+     "not": ""
+    }
+   ],
+   "baglar": [
+    {
+     "ad": "Hegel",
+     "tur": "beslendi",
+     "not": "Berlin'de onun felsefesini okudu; kuşağının Rus gençleri gibi Hegel'le yetişti."
+    },
+    {
+     "ad": "Gogol",
+     "tur": "beslendi",
+     "not": "Rus gerçekçi düzyazısının babası; ölümüne yazdığı yazı yüzünden sürgün edildi."
+    },
+    {
+     "ad": "Flaubert",
+     "tur": "akraba",
+     "not": "Yakın dostu; ikisi de yazarın görünmediği, ölçülü bir gerçekçiliği savundu."
+    },
+    {
+     "ad": "Henry James",
+     "tur": "etkiledi",
+     "not": "Turgenyev'i ustası saydı."
+    },
+    {
+     "ad": "Dostoyevski",
+     "tur": "karsi",
+     "not": "Birbirlerini sevmediler; Dostoyevski onu Batı'ya özenen bir aydın olarak gördü ve romanında alay etti."
+    },
+    {
+     "ad": "Tolstoy",
+     "tur": "karsi",
+     "not": "Dost ama sürekli kavgalı; bir tartışma neredeyse düelloya dönüştü."
+    },
+    {
+     "ad": "Oğuz Atay",
+     "tur": "akraba",
+     "not": "Tutunamayanlar'daki aydınlar, Turgenyev'in 'gereksiz adam'larının Türkçedeki akrabasıdır."
+    }
+   ],
+   "kesif": [
+    {
+     "tur": "Kitap",
+     "ad": "Turgenyev – Babalar ve Oğullar",
+     "not": "Önce bu; Bazarov'u tanımak için."
+    },
+    {
+     "tur": "Deneme",
+     "ad": "Turgenyev – Hamlet ve Don Kişot",
+     "not": "Kısa bir konuşma metni; eyleme geçememe sorununun özü."
+    },
+    {
+     "tur": "Kitap",
+     "ad": "Oğuz Atay – Tutunamayanlar",
+     "not": "Türkçedeki 'gereksiz adam'lar."
+    },
+    {
+     "tur": "Kitap",
+     "ad": "Isaiah Berlin – Rus Düşünürleri",
+     "not": "Turgenyev ve 19. yüzyıl Rus aydınları üzerine okunaklı denemeler."
+    }
+   ],
+   "foto": "foto/turgenyev.jpg",
+   "fotoNot": "Repin'in portresi, 1874",
+   "fotoKaynak": {
+    "artist": "İlya Repin",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Turgenev_by_Repin.jpg"
+   }
+  },
+  "dostoyevski": {
+   "ad": "Fyodor Dostoyevski",
+   "dogum": 1821,
+   "yil": "1821–1881",
+   "yer": "Moskova doğumlu; Petersburg",
+   "gelenek": "Edebiyat",
+   "ozet": "İnsan ruhunun karanlık köşelerini, inanç ile inançsızlık arasındaki kavgayı anlatan; Freud'dan Nietzsche'ye kadar herkesin 'psikolojiyi ondan öğrendim' dediği Rus romancı.",
+   "sorun": "Tanrı'ya inanmayan modern insanın neye dayanacağını, özgürlüğün ne kadar ağır bir yük olduğunu ve insanın kendi aklına rağmen neden kendine zarar verdiğini anlamak.",
+   "donem": "Çarlık Rusya'sı: sansür, siyasi polis, 1861'de serfliğin kaldırılması, Batıcı ve nihilist gençlerle Ortodoks gelenek arasında sert bir hesaplaşma; Petersburg hızla büyüyen yoksul bir başkent.",
+   "hikaye": "Moskova'da yoksullar hastanesinde çalışan sert bir doktorun oğluydu. Annesini erken kaybetti; babası da çiftliğinde, büyük ihtimalle köylüleri tarafından öldürüldü. Mühendislik okudu ama yazmak istiyordu; ilk romanı İnsancıklar (1846) onu bir gecede tanınmış yaptı.\n\n1849'da sosyalist bir okuma grubuna katıldığı için tutuklandı ve ölüme mahkûm edildi. Arkadaşlarıyla birlikte idam meydanına götürüldü, gözleri bağlandı; son anda Çar'ın affı okundu. Bu sahte idam bütün hayatını ve yazdığı her şeyi değiştirdi. Sibirya'da dört yıl ağır işlerde çalıştı, ardından yıllarca asker olarak yaşadı. Sürgüne giderken kendisine verilen İncil'i ölene kadar yanından ayırmadı.\n\nPetersburg'a döndüğünde sara nöbetleri, borçlar ve kumar tutkusuyla boğuşarak yazdı. Bir yayıncıya yetiştirmesi gereken romanı (Kumarbaz) 26 günde bir stenografa yazdırdı; o stenograf Anna Snitkina sonra karısı oldu ve hayatını düzene soktu. Suç ve Ceza, Budala, Ecinniler ve Karamazov Kardeşler bu son yirmi yılın ürünüdür. 1880'deki Puşkin konuşmasında salon ayağa kalkıp ağladı; birkaç ay sonra öldü.",
+   "kisilik": "Sinirli, alıngan, çabuk kızan ama aynı ölçüde cömert biriydi. Geceleri çalışır, çok koyu çay içer, sabaha karşı yatardı. Kumar masasında karısının küpelerini bile kaybettiği oldu, sonra pişmanlıkla mektuplar yazdı.\n\nİsviçre'de bir müzede Holbein'in 'Mezardaki Ölü İsa' tablosunun önünde o kadar uzun ve donmuş hâlde durdu ki karısı nöbet geçireceğinden korktu; o tablo sonra Budala romanına girdi. Derin bir Ortodoks inancı vardı ama romanlarında Tanrı'ya karşı en güçlü itirazları da kendisi yazdı.",
+   "fikirler": [
+    {
+     "baslik": "Yeraltı insanı",
+     "aciklama": "Akla ve kendi çıkarına rağmen, sırf özgür olduğunu kanıtlamak için kendine zarar veren insan. 'İki kere iki dört'e bile isyan eder (doktorun yasakladığı şeyi, yasaklandığı için yapan biri)."
+    },
+    {
+     "baslik": "Özgürlüğün yükü",
+     "aciklama": "Karamazov Kardeşler'deki 'Büyük Engizisyoncu' hikâyesinde insanlar özgürlük yerine ekmeği ve kendilerine ne yapacaklarını söyleyen bir otoriteyi seçer (seçenekler çoğalınca 'sen karar ver' deyip yükü başkasına bırakmak)."
+    },
+    {
+     "baslik": "Kusurlu iyi insan",
+     "aciklama": "Budala'da 'tamamen iyi bir insan' yazmak istedi; ortaya dünyaya uymayan, herkesin 'budala' dediği ama tuhaf bir sevgiyle bağlandığı Prens Mışkin çıktı. Ulus Baker'in 'başka bir dünyanın zarafeti' fikrinin canlı örneği."
+    },
+    {
+     "baslik": "Herkes herkesten sorumludur",
+     "aciklama": "Karamazov'daki Zosima'nın öğretisi: her insan herkesin günahından pay taşır (bir mahallede olan kötülüğe 'bana ne' diyememek)."
+    },
+    {
+     "baslik": "Çok seslilik",
+     "aciklama": "Karakterlerinin her biri kendi sesiyle, yazarın sesine karışmadan konuşur; en sevmediği fikirleri bile en güçlü biçimiyle yazar. Kavram, Rus düşünür Bahtin'in tespitidir."
+    },
+    {
+     "baslik": "Fikir ile vicdan",
+     "aciklama": "Suç ve Ceza'da Raskolnikov 'olağanüstü insanlar' kuramıyla bir cinayet işler; kuram ayakta kalır ama vicdan çöker (kâğıt üzerinde her şeyi haklı çıkarıp geceleri uyuyamamak)."
+    }
+   ],
+   "eserler": [
+    {
+     "ad": "İnsancıklar",
+     "yil": "1846",
+     "not": "İlk romanı."
+    },
+    {
+     "ad": "Ölüler Evinden Anılar",
+     "yil": "1862",
+     "not": "Sibirya'daki ağır iş yıllarından."
+    },
+    {
+     "ad": "Yeraltından Notlar",
+     "yil": "1864",
+     "not": "Kısa; bütün büyük romanlarının anahtarı."
+    },
+    {
+     "ad": "Suç ve Ceza",
+     "yil": "1866",
+     "not": ""
+    },
+    {
+     "ad": "Kumarbaz",
+     "yil": "1866",
+     "not": "26 günde yazdırıldı."
+    },
+    {
+     "ad": "Budala",
+     "yil": "1869",
+     "not": "Prens Mışkin."
+    },
+    {
+     "ad": "Ecinniler",
+     "yil": "1872",
+     "not": "Devrimci gençlik ve nihilizm üzerine."
+    },
+    {
+     "ad": "Karamazov Kardeşler",
+     "yil": "1880",
+     "not": "Son ve en büyük romanı."
+    }
+   ],
+   "baglar": [
+    {
+     "ad": "Puşkin",
+     "tur": "beslendi",
+     "not": "Rus edebiyatının kurucusu; son büyük konuşmasını ona adadı."
+    },
+    {
+     "ad": "Gogol",
+     "tur": "beslendi",
+     "not": "Küçük memurların, ezilmiş insanların dünyasını ondan aldı."
+    },
+    {
+     "ad": "Schiller",
+     "tur": "beslendi",
+     "not": "Gençliğinin büyük tutkusu; Karamazov'da sık sık anılır."
+    },
+    {
+     "ad": "Nietzsche",
+     "tur": "etkiledi",
+     "not": "'Bir şey öğrendiğim tek psikolog' diye andı."
+    },
+    {
+     "ad": "Freud",
+     "tur": "etkiledi",
+     "not": "Karamazov Kardeşler'i baba katli üzerine bir denemenin merkezine koydu."
+    },
+    {
+     "ad": "Camus",
+     "tur": "etkiledi",
+     "not": "Ecinniler'i tiyatroya uyarladı; 'Başkaldıran İnsan'da sık sık ona döner."
+    },
+    {
+     "ad": "Turgenyev",
+     "tur": "karsi",
+     "not": "Batı'ya özenen aydının simgesi olarak gördü; romanında alay etti."
+    },
+    {
+     "ad": "Çernişevski",
+     "tur": "karsi",
+     "not": "Akılla her şeyin düzene gireceğini söyleyen 'Ne Yapmalı?' romanına Yeraltından Notlar'la cevap verdi."
+    },
+    {
+     "ad": "Kierkegaard",
+     "tur": "akraba",
+     "not": "Birbirlerini okumadılar ama ikisi de inanç, umutsuzluk ve tek başına kalmış bireyi düşündü."
+    }
+   ],
+   "kesif": [
+    {
+     "tur": "Kitap",
+     "ad": "Dostoyevski – Yeraltından Notlar",
+     "not": "Giriş için en kısa ve en yoğun metin."
+    },
+    {
+     "tur": "Kitap",
+     "ad": "Dostoyevski – Budala",
+     "not": "Zarafet dersinin romanı."
+    },
+    {
+     "tur": "Bölüm",
+     "ad": "Karamazov Kardeşler – 'Büyük Engizisyoncu'",
+     "not": "Tek başına okunabilen birkaç sayfa; özgürlük ve inanç üzerine."
+    },
+    {
+     "tur": "Deneme",
+     "ad": "Freud – Dostoyevski ve Baba Katli (1928)",
+     "not": "Bilinçdışı ile edebiyatın buluştuğu yer."
+    },
+    {
+     "tur": "Film",
+     "ad": "Akira Kurosawa – Budala (1951)",
+     "not": "Romanın Japonya'ya taşınmış uyarlaması."
+    }
+   ],
+   "foto": "foto/dostoyevski.jpg",
+   "fotoNot": "Perov'un portresi, 1872",
+   "fotoKaynak": {
+    "artist": "Vasili Perov",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Vasily_Perov_-_%D0%9F%D0%BE%D1%80%D1%82%D1%80%D0%B5%D1%82_%D0%A4.%D0%9C.%D0%94%D0%BE%D1%81%D1%82%D0%BE%D0%B5%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE_-_Google_Art_Project.jpg"
+   }
+  },
+  "plotinos": {
+   "ad": "Plotinos",
+   "dogum": 204,
+   "yil": "204–270",
+   "yer": "Likopolis (Mısır) doğumlu; İskenderiye ve Roma",
+   "gelenek": "Felsefe (Yeni Platonculuk)",
+   "ozet": "Her şeyin tek bir kaynaktan, 'Bir'den ışık gibi taştığını söyleyen; fikirleri İslam felsefesine ve tasavvufa kadar uzanan Yeni Platonculuğun kurucusu.",
+   "sorun": "Çokluk ve değişimle dolu bu dünyanın tek ve değişmez bir kaynakla ilişkisini açıklamak; ruhun o kaynağa nasıl geri dönebileceğini göstermek.",
+   "donem": "Roma İmparatorluğu'nun '3. yüzyıl krizi': elli yılda yirmiden fazla imparator, salgınlar, sınır savaşları. Hristiyanlık yayılıyor, gnostik tarikatlar ve Doğu dinleri Roma'da alıcı buluyor.",
+   "hikaye": "Mısır'da doğdu; hayatı hakkında bildiklerimiz öğrencisi Porphyrios'un yazdığı kısa biyografiden gelir. Yirmi sekiz yaşında felsefeye yöneldi, İskenderiye'deki hocaların hiçbirini beğenmedi; sonunda Ammonios Sakkas'ı dinleyince 'aradığım adam bu' dedi ve on bir yıl onun yanında kaldı.\n\nİran ve Hint bilgeliğini öğrenmek için İmparator Gordianus'un İran seferine katıldı. İmparator öldürülünce zorlukla kaçtı ve kırk yaşında Roma'ya yerleşti. Orada bir okul açtı; dinleyicileri arasında senatörler, doktorlar ve imparator Gallienus ile karısı vardı. Platon'un hayalindeki filozoflar şehrini İtalya'da kurmak için imparatordan izin istedi ama saray çevresi engel oldu.\n\nYazmaya geç başladı. Yazdığı elli dört metni Porphyrios dokuzarlı altı gruba ayırıp 'Enneadlar' (Dokuzluklar) adıyla yayımladı. Bu metinlerin bir kısmı Arapçaya 'Aristoteles'in Teolojisi' adıyla çevrildi; İslam filozofları uzun süre bunları Aristoteles'in yazdığını sandı. Ağır bir hastalıkla Roma'dan ayrıldı ve Campania'da bir dostunun çiftliğinde öldü.",
+   "kisilik": "Porphyrios'a göre bir bedende yaşadığı için sanki utanç duyuyordu: doğum gününü söylemez, portresinin yapılmasını reddederdi. Gözleri zayıftı, yazdıklarını bir kez bile okuyup düzeltmezdi; yazım hataları meşhurdu.\n\nBuna rağmen gündelik işlerde son derece dikkatliydi. Ölen dostları çocuklarını ona emanet ederdi; evi yetimlerle doluydu ve onların mallarını kuruşu kuruşuna yönetirdi. Et yemezdi, hayvansal maddeyle yapılmış ilaçları kullanmazdı. Porphyrios onun yanında kaldığı altı yılda Plotinos'un dört kez 'Bir'le birleşme hâli yaşadığını yazar.",
+   "fikirler": [
+    {
+     "baslik": "Bir",
+     "aciklama": "Her şeyin kaynağı olan, varlığın da düşüncenin de ötesindeki tek ilke. Hakkında 'şudur' denemez, ancak 'şu değildir' denebilir (bir sayının içindeki 'bir'in, bütün sayıların temelinde olup hiçbirine benzememesi gibi)."
+    },
+    {
+     "baslik": "Sudur (taşma)",
+     "aciklama": "Bir, hiç eksilmeden kendinden taşar: önce Akıl, Akıl'dan Ruh, Ruh'tan madde dünyası çıkar. Kaynaktan uzaklaştıkça ışık azalır (bir lambanın ışığının uzaklaştıkça zayıflaması ama lambanın hiç eksilmemesi)."
+    },
+    {
+     "baslik": "Güzellik bir ışıltıdır",
+     "aciklama": "Güzellik yalnızca oranlarda, simetride değildir; oranın içinden parlayan bir şeydir. Ölmüş bir yüz aynı oranlara sahip olsa da canlı yüzün güzelliğini taşımaz. Ulus Baker'in zarafet dersindeki 'ışıltı' fikrine çok yakın."
+    },
+    {
+     "baslik": "Kendi heykelini yont",
+     "aciklama": "Ruh kaynağına dönmek için dışarıda değil içeride arar; heykeltıraşın fazlalıkları atıp figürü ortaya çıkarması gibi insan da fazlalıklarını atar (kalabalık bir odayı boşaltınca odanın asıl şeklinin görünmesi)."
+    },
+    {
+     "baslik": "Kötülük bir eksikliktir",
+     "aciklama": "Kötülüğün kendine ait bir varlığı yoktur; iyinin, ışığın eksik olduğu yerdir (karanlık bir şey değil, ışığın olmadığı yerdir)."
+    }
+   ],
+   "eserler": [
+    {
+     "ad": "Enneadlar",
+     "yil": "yaklaşık 270",
+     "not": "Porphyrios'un altı dokuzluk hâlinde düzenlediği 54 metin."
+    },
+    {
+     "ad": "Güzellik Üzerine (Enneadlar I.6)",
+     "yil": "",
+     "not": "İlk yazdığı metin; estetik tarihinin temel taşlarından."
+    },
+    {
+     "ad": "Üç Asıl Varlık Üzerine (Enneadlar V.1)",
+     "yil": "",
+     "not": "Bir, Akıl ve Ruh."
+    }
+   ],
+   "baglar": [
+    {
+     "ad": "Platon",
+     "tur": "beslendi",
+     "not": "Kendini bir yenilikçi değil, Platon'un yorumcusu saydı."
+    },
+    {
+     "ad": "Aristoteles",
+     "tur": "beslendi",
+     "not": "Akıl'ın kendi kendini düşünmesi fikrini ondan aldı."
+    },
+    {
+     "ad": "Ammonios Sakkas",
+     "tur": "beslendi",
+     "not": "İskenderiye'deki hocası; hiçbir şey yazmadı."
+    },
+    {
+     "ad": "Porphyrios",
+     "tur": "etkiledi",
+     "not": "Öğrencisi, biyografisini yazan ve eserlerini yayımlayan kişi."
+    },
+    {
+     "ad": "Augustinus",
+     "tur": "etkiledi",
+     "not": "Hristiyan olmadan önce Plotinos'u okudu; kötülüğün bir eksiklik olduğu fikrini ondan aldı."
+    },
+    {
+     "ad": "Farabi",
+     "tur": "etkiledi",
+     "not": "Sudur fikri, 'Aristoteles'in Teolojisi' adıyla gelen çeviri üzerinden İslam felsefesinin evren anlayışına yerleşti."
+    },
+    {
+     "ad": "İbn Sina",
+     "tur": "etkiledi",
+     "not": "Akıllar zinciri ve varlığın kademe kademe çıkışı."
+    },
+    {
+     "ad": "Gazali",
+     "tur": "karsi",
+     "not": "Filozofların sudur anlayışını Tehafüt'te sert biçimde eleştirdi; eleştirdiği fikrin kökü Plotinos'tu."
+    },
+    {
+     "ad": "İbn Arabi",
+     "tur": "akraba",
+     "not": "Varlığın tek kaynaktan taşması ile Tanrı'nın kendini göstermesi (tecelli) arasında sık benzerlik kurulur; ama İbn Arabi'de kaynak kör bir taşma değil, 'bilinmek istemek'tir."
+    },
+    {
+     "ad": "Upanişadlar",
+     "tur": "akraba",
+     "not": "Her şeyin tek bir mutlakta (Brahman) birleştiği Hint öğretisi; Plotinos'un İran seferine Hint bilgeliği için katıldığı anlatılır."
+    }
+   ],
+   "kesif": [
+    {
+     "tur": "Metin",
+     "ad": "Plotinos – Güzellik Üzerine (Enneadlar I.6)",
+     "not": "Kısa; önce bu."
+    },
+    {
+     "tur": "Kitap",
+     "ad": "Porphyrios – Plotinos'un Hayatı",
+     "not": "Hocasını anlatan, insanı yakalayan kısa bir biyografi; Enneadlar baskılarının başında yer alır."
+    },
+    {
+     "tur": "Kitap",
+     "ad": "Pierre Hadot – Plotinus or the Simplicity of Vision",
+     "not": "İngilizcesi var; Plotinos'u bir yaşama biçimi olarak anlatan ince bir kitap."
+    }
+   ],
+   "foto": "foto/plotinos.jpg",
+   "fotoNot": "Plotinos olduğu düşünülen Roma büstü",
+   "fotoKaynak": {
+    "artist": "Bilinmiyor",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Plotinos.jpg"
    }
   }
  },
@@ -5727,6 +6190,335 @@
    "sure": "yaklaşık 61 dk",
    "tarih": "2026-10-25T00:20:00",
    "url": "https://www.youtube.com/watch?v=10F7_VVumN4"
+  },
+  "ulus-baker-zarafet-philia": {
+   "baslik": "Zarafet, 'başka bir dünyadan'lık ve philia",
+   "anlatan": "Ulus Baker",
+   "tarih": "2026-10-25T01:00:00",
+   "sure": "yaklaşık 36 dk",
+   "url": "https://www.youtube.com/watch?v=4OjupWq2sp0",
+   "ozet": "Karada yürüyen bir yengeç beceriksizdir ama bizde tuhaf bir sevgi uyandırır, çünkü o paytak yürüyüşte başka bir dünyanın, denizin zarafeti sezilir. Ulus Baker bakış açısı derslerine hafif bir ara verip zarafeti buradan tanımlar: hoşlandığımız, dostluk kurduğumuz her şeyde biraz 'başka bir dünyadanlık', biraz beceriksizlik vardır. Bu fikri Rus romanının afallayan kahramanlarına, Orta Çağ'ın meleklerine ve kılık değiştirmiş Yunan tanrılarına kadar götürür.",
+   "onemli": [
+    {
+     "baslik": "Zarafet, başka bir dünyanın izidir",
+     "metin": "Karada paytak paytak yürüyen bir yengeç ya da kuğu çirkin değil, tuhaf biçimde zariftir; çünkü hareketlerinde ait oldukları dünyanın, suyun izi vardır. Zarafet, bir varlığın içinden başka bir düzenin görünmesidir (yabancı bir dilde düşünüp Türkçe konuşmaya çalışan bir arkadaşın cümlelerindeki tatlı tuhaflık gibi: o tuhaflıkta başka bir dilin, başka bir hayatın varlığını sezersin)."
+    },
+    {
+     "baslik": "Philia: hoşlanma kusurdan doğar",
+     "metin": "Philia, dostluğun başındaki ilk hoşlanmadır. Baker'e göre kendiliğinden kusursuz güzel olan bir şeyi sevmeyiz; sempati duyduğumuz her şeyde bir beceriksizlik, bir tuhaflık vardır, o olmadan dostluk kurulmaz (bir insanı ilk sevdiren şey çoğu zaman kusursuz hâli değil, şemsiyesini hep unutması ya da gülerken burnunu kırıştırmasıdır)."
+    },
+    {
+     "baslik": "Bu acıma değil",
+     "metin": "Baker özellikle altını çizer: bu duygu acıma değildir. Acıma insanı yukarıdan bakan biri yapar. Burada ise karşımızdakinin tuhaflığı karşısında kısa bir afallama, bir şaşırma yaşarız ve bu bizi ona doğru çeker (sokakta düşen birine acırsın; kendi kendine şarkı söyleyerek yürüyen birine ise gülümsersin, bahsedilen ikincisidir)."
+    },
+    {
+     "baslik": "Güçlü kahramanı sevmeyiz",
+     "metin": "Romanda ve sinemada kusursuz, güçlü kahramanlar zor sevilir. Turgenyev Babalar ve Oğullar'da güçlü, hiçbir şeye inanmayan, bilimci Bazarov'u sonunda öldürmek zorunda kalır. 19. yüzyıl Rus aydınının afallayıp eyleme geçememesi, o edebiyata kendine özgü bir zarafet verir."
+    },
+    {
+     "baslik": "Başka dünya, mümkün dünyadır",
+     "metin": "Buradaki 'başka dünya' öbür dünya, yani ahiret değildir; Leibniz'in mümkün dünyalarıdır. Baker'e göre Leibnizci bir estetik kurmak isteyen biri işe buradan başlayabilir: zarif bulduğumuz şey, bize bu dünyanın yanında başka bir dünyanın da mümkün olduğunu sezdirendir."
+    },
+    {
+     "baslik": "Melekler ve tanrıların ışıltısı",
+     "metin": "Orta Çağ düşünürleri meleklere tek bir özellik yakıştırabildiler: zarafet. Yunan tanrıları ise yoksul bir yolcu kılığına girseler bile adım atışlarındaki bir ışıltıdan tanınırdı. Zarafet nezaket ya da kibarlık değildir; bir varlığın içinden başka bir düzenin parlamasıdır (ünlü birini sıradan kıyafetle sokakta görüp yürüyüşünden tanımak gibi)."
+    }
+   ],
+   "akis": [
+    {
+     "baslik": "Bakış açısı dersleri sürüyor",
+     "metin": "Baker iki hafta daha 'bakış açısı' kavramı etrafında konuşacaklarını, estetikle ilişkisine bir sonraki hafta gireceğini söyler. Bu kavramın çekiciliği politik değildir. Ahlak tartışmalarının eksenlerinden biri olan rölativizm (görecelik) yalnızca Avrupa felsefesinde değil, dinlerin ahlak sistemlerinde de tartışılır. Leibniz'in açtığı iz ise farklı, yepyeni bir rölativizmdir: üç yüz yıl önce söylenmiş ama hâlâ tüketilmemiş bir fikir (eski görecelik 'herkesin doğrusu kendine' der; Leibniz ise 'her doğru bir yerden görülür ve o yerlerin her biri gerçektir' der)."
+    },
+    {
+     "baslik": "Konuyu hafifletmek",
+     "metin": "Bu derste ağır kavramlar yerine izlenimlerle ilerlemek istediğini söyler ve öğrencilere istedikleri an söze girebileceklerini hatırlatır."
+    },
+    {
+     "baslik": "Bakış açısı nerede işe yarar?",
+     "metin": "Medyada sürekli 'bakış açısı'ndan söz edilir ama orada estetik bir şey yoktur; bir tartışma programında konuşanın 'bakış açısında' estetik bir görünüm bulmak imkânsızdır. Baker'e göre bakış açısı kavramının gerçekten işe yaradığı yerlerden biri zarafeti anlamaktır."
+    },
+    {
+     "baslik": "Yengeç, kuğu, kedi",
+     "metin": "Karada yürüyen bir yengeci ya da kuğuyu düşünün: çok kötü yürürler. Öte yandan bir kedinin sıçrayışında, bir çitanın koşusunda, bir ceylanın kaçışında çok özel bir zarafet vardır ve bu her zaman sanata ilham vermiştir. Yengeç suda bambaşkadır, kendi dünyasında kendine özgü bir yengeç zarafeti yaşar. Peki karada 'zarif değil' derken aslında ne söylemiş oluyoruz?"
+    },
+    {
+     "baslik": "İkinci kavram: philia",
+     "metin": "Cevap için ikinci bir kavram çağırır: philia. Bunu ağır anlamıyla değil, hafif anlamıyla kullanır: dostluğun başındaki ilk hoşlanma, ilk karşılaşmadaki sempati."
+    },
+    {
+     "baslik": "Kusursuz güzeli sevmeyiz",
+     "metin": "Hiçbir zaman kendiliğinden güzel olan bir şeyi sevmeyiz. Yakınlık duyduğumuz, dostluk kurduğumuz her şeyde bir tür 'başka dünyadanlık', bir beceriksizlik, bir tuhaflık vardır; o olmazsa dostluk kurulamaz. Bu acıma değildir. Karşımızdakinin beceriksizliği önünde bir afallama, bir yön kaybı (dezoryantasyon) yaşarız ve bu duygu bizi ona doğru çeker. Karşımızdaki bir insan da olabilir, bir hayvan da. Baker böyle bir duygunun önceden uyanmış olması gerektiğini, belki bunun bir yaşam deneyimi olduğunu ekler."
+    },
+    {
+     "baslik": "Formül: başka bir dünyanın zarafeti",
+     "metin": "Yengecin yürüyüşünde ya da kuğunun paytak yürüyüşünde doğrudan estetik bir şey vardır, hafifçe şaşırtır ve hoşlanmaya davet eder. Bunun formülü 'başka bir dünyanın zarafeti'dir. Buradaki dünya ahiret değil, mümkün dünyalardır; geçen dersteki Adem'in mümkün dünyaları gibi. Leibnizci bir estetik kurmak isteyen biri bu noktadan yola çıkabilir."
+    },
+    {
+     "baslik": "Kusurdan doğan hoşlanma (soru-cevap)",
+     "metin": "Bir öğrencinin sorusu üzerine açar: yengeç suda kusursuzdur, anatomisinin ve gücünün izin verdiği ölçüde tam anlamıyla yetkindir. Baker'in vurgulamak istediği şey yengecin özelliği değil, bizim tarafımızda olan: hoşlanma, bir varlığın kusurundan ve o kusura karşı takındığımız anlayışlı, bağışlayıcı tavırdan doğabilir. Karaya vurmuş, çırpınan bir balığı da düşünebiliriz."
+    },
+    {
+     "baslik": "Roman kahramanları ve Bazarov",
+     "metin": "Roman kahramanlarında da bu hâl vardır: beceriksizlik, şanssızlık, talihsizlik. Sinemada biraz melodramatik bir temadır. Güçlü kahramanlardan pek hoşlanmayız; güçlü bir kahramanı sevilecek biçimde anlatmak zordur. Turgenyev'in Babalar ve Oğullar'ında yazar güçlü kahramanı Bazarov'u öldürmek zorunda kalır, başka bir çaresi yoktur."
+    },
+    {
+     "baslik": "19. yüzyıl Rus aydını",
+     "metin": "Bu hikâyenin arkasında bütün bir Rus tarihi yatar. Ülke geri kalmıştır; aydınlar Almanya'ya, Fransa'ya gider, bilim öğrenir, kurbağa keser, pozitif bilimlerle donanıp döner. Ama asıl derdin bu olmadığını, çok daha ağır ve acil sorunlar olduğunu anlarlar ve afallarlar, hiçbir şey yapamaz hâle gelirler. 'Acele işe şeytan karışır': sürekli bir afallama ve eyleme geçme gücünden kopukluk ortaya çıkar. 19. yüzyıl Rusya'sı özenilecek bir dünya değildir ama orada başka bir dünyanın zarafeti vardır; o yüzyılın büyük edebiyat ve müzik kuşağı buradan çıkar (Dostoyevski, Tolstoy, Çehov; müzikte Çaykovski, Musorgski)."
+    },
+    {
+     "baslik": "Zarafet nezaket değildir",
+     "metin": "Zarafet kibarlık, nazik davranma meselesi değildir; büyük bir hantallığın içinde bile olabilir. Yengece zarafet yakıştırmamızın nedeni mutlaka onun kendine ait başka dünyasına, denize gönderme yapmamızdır."
+    },
+    {
+     "baslik": "Melekler ve zarafet",
+     "metin": "Orta Çağ filozofları zarafeti meleklere verirdi. Melekler insanlardan tamamen farklı varlıklardır ve onlara yakıştırılabilecek tek bir özellik vardır: zarafet. Meleklere bir cinsiyet vermek imkânsızdı; yine de tartıştılar (Türkçedeki 'Bizans tartışması' deyimi buradan gelir). Bu tasvir sorunu Orta Çağ boyunca çözülemedi: Bizans ve Orta Çağ ikonalarında melekler cinsiyetsiz çizilir ve bu bir süre Rönesans resminde de sürer."
+    },
+    {
+     "baslik": "Hilkat garibeleri",
+     "metin": "Antik Yunan'da iki cinsiyetli varlık (hermafrodit) bir hilkat garibesi, bir tür sakatlık olarak görülürdü; Orta Çağ'da da biyolojik bozukluk 'canavar'ı çağrıştırırdı. Yunanlılar için bu garibeler, insandan önceki tanrılarla insanlar arasındaki ara kuşaktı: tepegözler (kikloplar), devler."
+    },
+    {
+     "baslik": "Tanrıların ışıltısı",
+     "metin": "Yunanlılar tanrıları insan bedeninin ideal oranlarıyla çizdiler. Tanrılar ışıltılıdır, bazen güzeldir ama sürekli kılık değiştirebilir, maskeyle gelir. Yine de onları ele veren bir ışıltı vardır: başka bir dünyanın zarafeti. Hermes yoksul bir gezgin kılığında misafir olarak geldiğinde kahramanlar onun Hermes olduğunu bir şekilde anlar; adım atışında, hızında insandan farklı bir çizgi vardır."
+    },
+    {
+     "baslik": "Aristoteles ve trajik kusur",
+     "metin": "Baker Aristoteles'in tragedya üzerine söylediklerini hatırlatır: tragedyada da bir afallama ve kusur vardır ve seyirci kahramanı bu kusur yüzünden sever, ona yakınlık duyar. Kusurun arkasında her zaman bir ışıldama vardır."
+    },
+    {
+     "baslik": "Bugün de var",
+     "metin": "Bu yalnızca Yunanlılara ya da Orta Çağ'a ait değil; kendi dünyamızda da bulabiliriz. Bir öğrenci avangart hareketleri, galerileri, kentteki kusurlu estetiği sorar. Baker modern estetik ile avangart estetiği ayırt etmenin şu an konuları olmadığını söyler."
+    },
+    {
+     "baslik": "Güzel, tanrının maskesi; Plotinos",
+     "metin": "Yunanlılar güzel olanın tanrının bir maskesi olduğunu düşünüyordu. Latince 'gratia' kelimesi (zarafet, lütuf) buraya bağlanır. Baker ardından Plotinos'un yayılma, ışınım (sudur) fikrine değinir ve onun Orta Çağ estetiğini anlamak için temel isimlerden biri olduğunu, ileride tartışacaklarını söyler."
+    },
+    {
+     "baslik": "Estetik basitçe bir duyumdur",
+     "metin": "Zarafeti felsefi bir problem gibi değil, gündelik bir izlenim olarak sindirmeyi önerir. Estetiği derin anlamlarla düşünmeyin: kelimenin aslı basitçe yeni bir tür duyum, his demektir. Alman idealizmi bu kelimeyi başka yerlere taşıdı, bir yorum (hermenötik) meselesine çevirdi; bunları ileride tartışacaklar."
+    },
+    {
+     "baslik": "Televizyon ve parıltının söndürülmesi",
+     "metin": "Kayıt, televizyonun bu parlamayı abartıp değerden düşürdüğü, böylece etkisizleştirdiği (nötralize ettiği) üzerine yarım kalan bir düşünceyle biter."
+    }
+   ],
+   "kavramlar": [
+    {
+     "ad": "Zarafet",
+     "aciklama": "Baker'in tanımıyla bir varlığın hareketinde başka bir dünyanın izinin görünmesi. Kibarlıkla ilgisi yok; hantal bir varlıkta bile olabilir (karadaki yengecin yürüyüşünde denizin izi)."
+    },
+    {
+     "ad": "Başka bir dünyadanlık",
+     "aciklama": "Bir şeyin bu dünyaya tam oturmayıp başka bir düzene ait olduğunu sezdirmesi. Baker'e göre sevginin, hoşlanmanın başladığı yer (yabancı bir şehirde yolunu kaybetmiş gibi bakan bir turistin hâli)."
+    },
+    {
+     "ad": "Philia",
+     "aciklama": "Yunanca dostluk, sevgi. Baker hafif anlamıyla kullanır: dostluğun başındaki ilk hoşlanma, sempati (yeni tanıştığın birine 'bununla iyi anlaşırım' dediğin an)."
+    },
+    {
+     "ad": "Afallama (dezoryantasyon)",
+     "aciklama": "Yönünü kaybetme, ne yapacağını bilememe. Hem karşımızdakinin tuhaflığı önünde bizim yaşadığımız kısa şaşkınlık, hem de eyleme geçemeyen insanın hâli (yeni bir işte ilk gün nereye oturacağını bilememek)."
+    },
+    {
+     "ad": "Acıma ile sempati farkı",
+     "aciklama": "Acıma insanı yukarıdan bakan biri yapar; Baker'in sözünü ettiği sempati ise eşitler arası bir çekimdir (düşen birine acırsın, sakar bir arkadaşa gülümsersin)."
+    },
+    {
+     "ad": "Mümkün dünyalar",
+     "aciklama": "Leibniz'in fikri: Tanrı'nın aklında sayısız dünya mümkündü, biri yaratıldı. Baker'e göre zarafet bize bu öteki mümkün dünyaları sezdirir (bambaşka bir hayat yaşayan birini görünce 'ben de böyle yaşayabilirdim' demek)."
+    },
+    {
+     "ad": "Eyleme geçme gücü",
+     "aciklama": "Bir şey yapabilme kudreti. Baker Rus aydınının bu güçten koptuğunu söyler; kavram Spinoza'nın 'eyleme gücü' fikrini hatırlatır (ne yapılması gerektiğini bildiği hâlde bir türlü başlayamamak)."
+    },
+    {
+     "ad": "Trajik kusur (hamartia)",
+     "aciklama": "Aristoteles'te tragedya kahramanını düşüren hata ya da zaaf. Seyirci kahramanı bu kusur yüzünden kendine yakın bulur (Kral Oidipus'un her şeyi öğrenme inadı)."
+    },
+    {
+     "ad": "Gratia / kharis",
+     "aciklama": "Latince ve Yunanca zarafet, lütuf. Hem güzel hareket hem de karşılıksız verilen iyilik anlamına gelir; Hristiyan teolojisinde 'Tanrı'nın lütfu' olur."
+    },
+    {
+     "ad": "Sudur (yayılma, ışınım)",
+     "aciklama": "Plotinos'un fikri: her şey tek bir kaynaktan, ışığın güneşten taşması gibi taşar. İslam felsefesine ve tasavvufa da derin iz bıraktı (bir lambanın ışığının uzaklaştıkça azalması ama lambanın hiç eksilmemesi)."
+    },
+    {
+     "ad": "Aisthesis",
+     "aciklama": "Yunanca duyum, algı. 'Estetik' kelimesinin kökü. Baker estetiği ilk anlamına, basit bir yeni duyum, his anlamına geri götürür."
+    },
+    {
+     "ad": "Gereksiz adam",
+     "aciklama": "Turgenyev'in yaygınlaştırdığı 19. yüzyıl Rus edebiyatı tipi: eğitimli, duyarlı ama eyleme geçemeyen aydın. Baker'in 'afallayan Rus aydını' bu tiptir (her şeyi okuyup anlayan ama hayatında tek bir adım atamayan biri)."
+    },
+    {
+     "ad": "Nihilist (Bazarov tipi)",
+     "aciklama": "Hiçbir otoriteyi, geleneği, inancı kabul etmeyen; yalnızca bilime ve işe yarayana inanan genç. Turgenyev'in Babalar ve Oğullar'daki kahramanı Bazarov bu kelimeyi meşhur etti."
+    },
+    {
+     "ad": "Bizans tartışması",
+     "aciklama": "Meleklerin cinsiyeti gibi sonuçsuz, kısır tartışma. 1453'te Osmanlı ordusu kapıdayken Bizanslıların bunu tartıştığı anlatılır (hikâyenin doğruluğu tartışmalıdır)."
+    }
+   ],
+   "isimler": [
+    {
+     "id": "leibniz",
+     "ad": "Leibniz",
+     "ne": "Yeni bir rölativizmin kaynağı; 'başka dünya' onun mümkün dünyalarıdır, Leibnizci bir estetiğe kapı."
+    },
+    {
+     "id": "turgenyev",
+     "ad": "Turgenyev",
+     "ne": "Babalar ve Oğullar'da güçlü kahramanı Bazarov'u öldürmek zorunda kalan yazar."
+    },
+    {
+     "id": "dostoyevski",
+     "ad": "Dostoyevski",
+     "ne": "Afallayan, eyleme geçemeyen 19. yüzyıl Rus aydınının ve o dünyanın zarafetinin anlatıcısı."
+    },
+    {
+     "id": "aristoteles",
+     "ad": "Aristoteles",
+     "ne": "Tragedyada kusur ve afallama; seyircinin kahramanı kusuru yüzünden sevmesi."
+    },
+    {
+     "id": "plotinos",
+     "ad": "Plotinos",
+     "ne": "Yayılma, ışınım (sudur) fikri; Orta Çağ estetiğini anlamak için temel isim."
+    }
+   ],
+   "kaynaklar": [
+    {
+     "ad": "Turgenyev – Babalar ve Oğullar",
+     "yil": "1862",
+     "not": "Bazarov ve onun ölümü; konuşmadaki 'güçlü kahramanı sevmeyiz' örneği."
+    },
+    {
+     "ad": "Aristoteles – Poetika",
+     "yil": "MÖ 4. yy",
+     "not": "Tragedya, kahramanın kusuru (hamartia) ve seyircinin yakınlık duyması."
+    },
+    {
+     "ad": "Plotinos – Enneadlar, 'Güzellik Üzerine' (I.6)",
+     "yil": "3. yy",
+     "not": "Güzelliğin oranda değil, oranın içinden parlayan ışıltıda olduğu fikri; Baker'in 'ışıltı' vurgusuyla örtüşüyor."
+    },
+    {
+     "ad": "Leibniz – Teodise",
+     "yil": "1710",
+     "not": "Mümkün dünyalar; 'başka bir dünya' ifadesinin dayandığı yer."
+    },
+    {
+     "ad": "Ovidius – Dönüşümler, Philemon ve Baukis",
+     "yil": "MS 8",
+     "not": "Zeus ile Hermes'in yoksul yolcu kılığında yaşlı bir çifte misafir olması. Baker hikâyeyi adıyla anmıyor; anlattığı sahneye en yakın klasik örnek bu."
+    },
+    {
+     "ad": "Gilles Deleuze – Kıvrım: Leibniz ve Barok",
+     "yil": "1988",
+     "not": "Bakış açısı ve mümkün dünyalar; bu ders dizisinin arka planındaki kitap."
+    }
+   ],
+   "okuma": [
+    {
+     "ad": "Turgenyev – Babalar ve Oğullar",
+     "not": "Kısa ve akıcı bir roman. Bazarov'u tanıdıktan sonra Baker'in neden 'öldürmek zorunda kaldı' dediği anlaşılıyor."
+    },
+    {
+     "ad": "Dostoyevski – Budala",
+     "not": "Prens Mışkin bu dersin canlı örneği: dünyaya uymayan, beceriksiz, 'başka bir dünyadan' gelmiş gibi bir iyi insan ve herkesin ona tuhaf bir sevgiyle bağlanması. Baker anmıyor, benim önerim."
+    },
+    {
+     "ad": "Aristoteles – Poetika",
+     "not": "İnce bir kitap; tragedya ve kahramanın kusuruyla ilgili bölümler yeterli."
+    },
+    {
+     "ad": "Plotinos – Güzellik Üzerine (Enneadlar I.6)",
+     "not": "Birkaç sayfalık bir metin; 'ışıltı' fikrini kaynağından okumak için."
+    }
+   ],
+   "belirsiz": [
+    "Konuşmanın başında 'üç yüz yıl önce söylenmiş ama yepyeni' denen rölativizmin Leibniz'in bakış açısı fikri olduğunu bağlamdan çıkardım; isim kayıtta net duyulmuyor.",
+    "Rus edebiyatı bölümünde Dostoyevski'nin adı geçiyor ama hangi eserinden, nasıl bahsedildiği anlaşılmıyor; aynı yerde Oblomov tipinden de söz ediliyor olabilir.",
+    "Rus kuşağının sonradan, muhtemelen Sovyet döneminde, edebiyatta 'kaybedildiği' gibi bir cümle var; tam anlaşılmıyor.",
+    "'Güzel olan tanrının maskesidir' düşüncesini ortadan kaldıran bir Yunan düşünürden söz ediliyor; adı duyulmuyor.",
+    "Avangart estetik üzerine öğrenci sorusu ve Baker'in cevabının bir kısmı ses kaydında kaybolmuş.",
+    "Kayıt, televizyonun parıltıyı abartıp etkisizleştirdiği üzerine bir cümlenin ortasında bitiyor."
+   ],
+   "sozluk": [
+    {
+     "ad": "Rölativizm (görecelik)",
+     "aciklama": "Doğrunun, iyinin ya da güzelin herkese ve her yere göre değiştiği görüşü."
+    },
+    {
+     "ad": "Mefhum",
+     "aciklama": "Kavram, fikir. Eski Türkçe ve Osmanlıcadan."
+    },
+    {
+     "ad": "Estetik",
+     "aciklama": "Güzellik ve sanat üzerine düşünme. Yunanca 'aisthesis' (duyum) kökünden; felsefede bir dal adı olarak 1750'de Baumgarten kullandı."
+    },
+    {
+     "ad": "Philia",
+     "aciklama": "Yunanca dostluk, sevgi. 'Filozof' (bilgelik dostu) kelimesindeki 'filo' buradan gelir."
+    },
+    {
+     "ad": "Dezoryantasyon",
+     "aciklama": "Yön kaybı, nerede olduğunu ya da ne yapacağını bilememe."
+    },
+    {
+     "ad": "Melodram",
+     "aciklama": "Duyguları abartılı biçimde işleyen, acıklı olaylarla izleyiciyi ağlatmaya yönelik dram türü (Yeşilçam'ın kader filmleri gibi)."
+    },
+    {
+     "ad": "Pozitif bilimler",
+     "aciklama": "Deney ve gözleme dayanan bilimler: fizik, kimya, biyoloji."
+    },
+    {
+     "ad": "Aydın (entelijansiya)",
+     "aciklama": "Okumuş, düşünen ve toplumun sorunlarıyla uğraşan kesim. Rusçadaki 'intelligentsia' kelimesi tam bu 19. yüzyıl Rus aydınları için kullanıldı."
+    },
+    {
+     "ad": "İkonografi",
+     "aciklama": "Resimlerde kimin, neyin, hangi kalıplarla gösterildiği; örneğin azizlerin başında hale, meleklerin kanatlı çizilmesi."
+    },
+    {
+     "ad": "Hermafrodit",
+     "aciklama": "Hem dişi hem erkek özellik taşıyan varlık. Adı Yunan mitolojisindeki Hermaphroditos'tan gelir."
+    },
+    {
+     "ad": "Hilkat garibesi",
+     "aciklama": "Yaradılış tuhaflığı; doğanın olağan dışı, 'ucube' sayılan ürünü."
+    },
+    {
+     "ad": "Kiklop",
+     "aciklama": "Yunan mitolojisinde tek gözlü dev; Türkçede tepegöz."
+    },
+    {
+     "ad": "Tragedya",
+     "aciklama": "Kahramanın düşüşünü anlatan, seyirciyi acıma ve korkuyla sarsan Antik Yunan tiyatro türü."
+    },
+    {
+     "ad": "Avangart",
+     "aciklama": "Öncü; sanatta yerleşik kuralları kıran, yeniyi deneyen hareketler."
+    },
+    {
+     "ad": "Hermenötik",
+     "aciklama": "Yorum bilimi; metinlerin ve anlamların nasıl yorumlanacağı üzerine düşünme."
+    },
+    {
+     "ad": "Alman idealizmi",
+     "aciklama": "Kant, Fichte, Schelling ve Hegel'in temsil ettiği, gerçekliği zihin ve tin üzerinden açıklayan 18–19. yüzyıl felsefe akımı."
+    },
+    {
+     "ad": "Nötralize etmek",
+     "aciklama": "Etkisizleştirmek, gücünü almak."
+    },
+    {
+     "ad": "Acele işe şeytan karışır",
+     "aciklama": "Aceleyle yapılan işin kötü sonuçlanacağını anlatan atasözü."
+    }
+   ]
   }
  }
 }

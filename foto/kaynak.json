@@ -267,5 +267,12 @@
   "lic": "Kamu malı",
   "artist": "Bilinmiyor",
   "not": "Plotinos olduğu düşünülen Roma büstü"
+ },
+ "baumgarten": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Alexander_Gottlieb_Baumgarten.webp",
+  "page": "https://commons.wikimedia.org/wiki/File:Alexander_Gottlieb_Baumgarten.webp",
+  "lic": "CC BY 4.0",
+  "artist": "Klaus Baldauf",
+  "not": "Frankfurt (Oder)'daki anma plaketi"
  }
 }
