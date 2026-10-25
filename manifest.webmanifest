@@ -1,6 +1,6 @@
 {
-  "name": "Kenar Notları",
-  "short_name": "Kenar",
+  "name": "Derkenar",
+  "short_name": "Derkenar",
   "description": "İzlediğin konuşmalar, içlerinde geçen insanlar ve kendi notların.",
   "lang": "tr",
   "start_url": "./",

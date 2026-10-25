@@ -1,7 +1,7 @@
-/* Kenar Notları – offline support.
+/* Derkenar – offline support.
    Page and content: network first (so new talks show up), cached copy when offline.
    Fonts and icons: cache first. GitHub API calls are never touched. */
-const V = "kenar-v3";
+const V = "kenar-v4";
 const SHELL = ["./", "index.html", "fonts.css", "manifest.webmanifest", "data/icerik.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 

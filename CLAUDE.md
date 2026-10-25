@@ -1,4 +1,4 @@
-# Kenar Notları — çalışma notu
+# Derkenar (eski adıyla Kenar Notları) — çalışma notu
 
 Ata'nın kişisel öğrenme arşivi. İzlediği konuşmaların (önce Ulus Baker; sonra Hüseyin Ütün "Tasavvuf Kapısı" ve diğerleri) transkriptlerinden Claude tarafından yazılan kişi dosyaları ve kayıt özetleri.
 
