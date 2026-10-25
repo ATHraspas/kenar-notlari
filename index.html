@@ -201,11 +201,14 @@ a{color:inherit}
 .note h4{font-family:var(--display); font-weight:800; text-transform:uppercase; font-size:19px; letter-spacing:.01em; margin:0 0 8px; line-height:1.05}
 .note::before{content:""; position:absolute; top:-9px; left:50%; width:70px; height:18px; margin-left:-35px; background:rgba(255,255,255,.55); transform:rotate(-3deg)}
 @media (max-width:760px){ .note:nth-child(n){transform:none} }
-.icards{display:grid; grid-template-columns:repeat(auto-fill,minmax(250px,1fr)); gap:14px}
-.icard{background:#fff; border-radius:2px; padding:14px 16px 16px; box-shadow:0 1px 0 rgba(0,0,0,.12), 0 8px 16px -12px rgba(0,0,0,.4); background-image:repeating-linear-gradient(transparent 0 25px, #E3EAF3 25px 26px); position:relative}
-.icard::before{content:""; position:absolute; left:0; right:0; top:34px; border-top:1.5px solid rgba(200,65,47,.5)}
-.icard b{display:block; font-family:var(--serif); font-size:1.08rem; font-weight:600; line-height:1.3; min-height:26px}
-.icard span{display:block; margin-top:14px; font-size:15px; line-height:1.6; color:#2d2b27}
+.icards{display:grid; grid-template-columns:repeat(auto-fill,minmax(290px,1fr)); gap:0 34px; counter-reset:ic}
+.icard{counter-increment:ic; position:relative; padding:16px 0 20px 58px; border-top:1px solid var(--rule)}
+.icard::before{content:counter(ic, decimal-leading-zero); position:absolute; left:0; top:13px; font-family:var(--display); font-weight:900; font-size:38px; line-height:1; color:var(--ink); letter-spacing:-.02em}
+.icard::after{content:""; position:absolute; left:0; top:-1px; width:38px; border-top:3px solid var(--c, var(--ink))}
+.icard b{display:block; font-family:var(--serif); font-size:1.16rem; font-weight:600; line-height:1.3}
+.icard span{display:block; margin-top:6px; font-size:15.5px; line-height:1.6; color:#2d2b27}
+@media (max-width:560px){ .icard{padding-left:46px} .icard::before{font-size:30px; top:15px} .icard::after{width:30px} }
+.icard .ex{display:block; margin-top:8px; padding-left:12px; border-left:2px solid var(--rule); font-style:italic; font-size:14.5px; line-height:1.55; color:var(--ink2)}
 .works{list-style:none; margin:0; padding:0}
 .works li{display:grid; grid-template-columns:minmax(0,1fr) auto; gap:2px 14px; padding:10px 0; border-bottom:1px dotted var(--rule)}
 .works .wn{font-style:italic; font-size:1.06rem}
@@ -544,6 +547,14 @@ function rerender(scope){ scope==="dos" ? renderDossier() : vDefter(); }
 /* dossier */
 function nameOf(key){ if(key.startsWith("t:")){ const t=talks.get(key.slice(2)); return t?t.baslik:"Kayıt"; } return people.get(key)?.ad || refsIndex().get(key)?.ad || key; }
 function link(ad,id){ const s=id||slug(ad); return `<button class="lnk${people.has(s)?"":" ghost"}" type="button" data-open="${esc(s)}">${esc(ad)}</button>`; }
+/* "(Örneğin: …)" at the end of an explanation is shown as its own quiet line */
+function exSplit(t){
+  t=String(t||""); const i=t.search(/\s*\((Örneğin|Mesela|Örnek)\b/);
+  if(i<0 || !/\)\.?\s*$/.test(t)) return esc(t);
+  let ex=t.slice(i).trim().replace(/^\(/,"").replace(/\)\.?$/,"");
+  const main=t.slice(0,i).trim().replace(/[;,]$/,"");
+  return `${esc(main)}<i class="ex">${esc(ex)}</i>`;
+}
 function sec(k,title,count,body,def){ const open=(k in openSecs)?openSecs[k]:!!def; return `<details class="sec" data-sec="${k}"${open?" open":""}><summary><span>${title}${count?` · ${count}`:""}</span></summary><div class="secbody">${body}</div></details>`; }
 function initials(ad){ const w=String(ad).split(/\s+/).filter(Boolean); return (w.length>1? w[0][0]+w[w.length-1][0] : String(ad).slice(0,2)).toLocaleUpperCase("tr"); }
 
@@ -584,7 +595,7 @@ function personHtml(id,p,e){
       ${p.donem?`<div class="note" style="--nc:var(--n-teal)"><h4>Döneminin havası</h4>${esc(p.donem)}</div>`:""}
     </div>
     ${kp.length?`<p class="lbl">${isAkim(p)?"Gündelik hayatı":"Nasıl biriydi"}</p><div class="prose">${kp.map(x=>`<p>${esc(x)}</p>`).join("")}</div>`:""}
-    ${arr(p.fikirler).length?`<p class="lbl">Ana fikirleri</p><div class="icards">${arr(p.fikirler).map(f=>typeof f==="string"?`<div class="icard"><b>${esc(f)}</b></div>`:`<div class="icard"><b>${esc(f.baslik)}</b>${f.aciklama?`<span>${esc(f.aciklama)}</span>`:""}</div>`).join("")}</div>`:""}
+    ${arr(p.fikirler).length?`<p class="lbl">Ana fikirleri</p><div class="icards">${arr(p.fikirler).map(f=>typeof f==="string"?`<div class="icard"><b>${esc(f)}</b></div>`:`<div class="icard"><b>${esc(f.baslik)}</b>${f.aciklama?`<span>${exSplit(f.aciklama)}</span>`:""}</div>`).join("")}</div>`:""}
     ${arr(p.eserler).length?`<p class="lbl">Eserleri</p><ul class="works">${arr(p.eserler).map(w=>`<li><span class="wn">${esc(w.ad)}</span><span class="y">${esc(w.yil||"")}</span>${w.not?`<span class="wnote">${esc(w.not)}</span>`:""}</li>`).join("")}</ul>`:""}`;
   const backs=[...people.entries()].filter(([oid,o])=>oid!==id && arr(o.baglar).some(b=>slug(b.ad)===id) && !arr(p.baglar).some(b=>slug(b.ad)===oid));
   const grp=t=>{ const it=arr(p.baglar).filter(b=>b.tur===t); return it.length?`<div><h5>${REL[t]}</h5><ul class="rels">${it.map(b=>`<li>${link(b.ad)}${b.not?`<span class="n">${esc(b.not)}</span>`:""}</li>`).join("")}</ul></div>`:""; };
@@ -617,7 +628,7 @@ function talkHtml(id){
   if(ak.length) h+=`<div style="margin-top:22px">`+sec("akis","Konuşmanın akışı",ak.length+" adım",`<ol class="flow">${ak.map(a=>`<li><b>${esc(a.baslik)}</b><p>${esc(a.metin)}</p></li>`).join("")}</ol>`,false);
   else h+=`<div>`;
   const kv=arr(t.kavramlar);
-  if(kv.length) h+=sec("kavramlar","Kavramlar",kv.length,`<div class="icards">${kv.map(k=>`<div class="icard"><b>${esc(k.ad)}</b><span>${esc(k.aciklama)}</span></div>`).join("")}</div>`,false);
+  if(kv.length) h+=sec("kavramlar","Kavramlar",kv.length,`<div class="icards">${kv.map(k=>`<div class="icard"><b>${esc(k.ad)}</b><span>${exSplit(k.aciklama)}</span></div>`).join("")}</div>`,false);
   const is=arr(t.isimler);
   if(is.length) h+=sec("isimler","Geçen isimler",is.length,`<ul class="rels">${is.map(n=>`<li>${link(n.ad,n.id)}${n.ne?`<span class="n">${esc(n.ne)}</span>`:""}</li>`).join("")}</ul>`,true);
   const kk=arr(t.kaynaklar);
