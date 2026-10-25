@@ -230,8 +230,13 @@ details.sec[open] summary::after{content:"–"}
 .next li{display:grid; grid-template-columns:70px minmax(0,1fr); gap:4px 14px}
 .next .k{font-family:var(--type); font-size:11px; letter-spacing:.1em; text-transform:uppercase; border:1.5px solid var(--ink2); color:var(--ink2); padding:1px 4px; align-self:start; text-align:center; transform:rotate(-2deg)}
 .next small{display:block; font-size:14.5px; color:var(--ink2)}
-textarea.mynotes{width:100%; min-height:180px; resize:vertical; border:0; border-radius:2px; padding:8px 14px; font-family:var(--serif); font-size:1.08rem; line-height:32px; color:var(--ink); background:#FBF8F1; background-image:repeating-linear-gradient(transparent 0 31px, #CBD6E6 31px 32px); background-attachment:local}
-.saved{font-family:var(--type); font-size:12px; color:var(--ink2); margin-top:6px; min-height:1em}
+.sheet .compose{background-color:#FBF8F1; box-shadow:none; border:1.5px solid var(--rule); margin-bottom:22px}
+.sheet .nempty{color:var(--ink2); padding:6px 0 4px}
+.nchip{flex:none; max-width:44%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; border:1.5px solid currentColor; background:transparent; color:inherit; border-radius:999px; padding:2px 9px; font-family:var(--type); font-size:11.5px; opacity:.9}
+.credit{margin-top:26px; font-family:var(--type); font-size:11.5px; color:var(--ink2)}
+.credit a{color:inherit}
+.card .ph{position:absolute; right:12px; top:12px; width:46px; height:58px; object-fit:cover; filter:grayscale(1) contrast(1.05); border:3px solid #fff; box-shadow:0 3px 8px -3px rgba(0,0,0,.5); transform:rotate(2deg)}
+.card.hasph{padding-right:72px}
 .pager{display:flex; justify-content:space-between; gap:12px; margin-top:28px; flex-wrap:wrap}
 .pager button{background:rgba(0,0,0,.25); color:var(--fg, var(--chalk)); border:0; border-radius:8px; padding:12px 16px; font-family:var(--type); font-size:13px; text-align:left; max-width:48%}
 .pager button b{display:block; font-family:var(--serif); font-size:1.1rem; font-weight:500; margin-top:2px}
@@ -320,6 +325,16 @@ function rebuildNotebook(){
   const prev=new Map(notebook.map(n=>[n.id,n]));
   notebook=Object.entries(state.defter).filter(([,n])=>n && !n.silindi).map(([id,n])=>{ const o=prev.get(id); return {id,...n,_confirm:!!(o&&o._confirm),...(o&&o._et?{_et:o._et}:{})}; });
 }
+/* older single-text dossier notes become cards attached to that dossier (same id on every device) */
+function migrateDosya(){
+  let ch=false;
+  for(const [k,v] of Object.entries(state.dosya||{})){
+    if(!v || !String(v.metin||"").trim()) continue;
+    const id="dosya-"+k.replace(/[^A-Za-z0-9-]/g,"_"); if(state.defter[id]) continue;
+    state.defter[id]={metin:String(v.metin).trim(), link:"", tur:"fikir", tarih:v.guncel||now(), guncel:v.guncel||now(), bag:k}; ch=true;
+  }
+  return ch;
+}
 function touch(){ meta.dirty=true; persist(); rebuildNotebook(); updateSyncUi(); scheduleSync(1200); }
 const mergeMaps=(a,b)=>{ const o={...(a||{})}; for(const [k,v] of Object.entries(b||{})){ const x=o[k]; if(!x || String(v&&v.guncel||"")>String(x.guncel||"")) o[k]=v; } return o; };
 const merge=(r,l)=>({defter:mergeMaps(r.defter,l.defter), dosya:mergeMaps(r.dosya,l.dosya)});
@@ -354,6 +369,7 @@ async function sync(){
       }
       if(JSON.stringify(state)===snap){ state=merged; meta.dirty=false; }
       else { state=merge(merged,state); meta.dirty=true; syncAgain=true; }
+      if(migrateDosya()){ meta.dirty=true; syncAgain=true; }
       meta.last=now(); meta.err=null; done=true;
     }
     if(!done) meta.err="net";
@@ -440,7 +456,7 @@ function vZaman(){
   const groups=new Map(); for(const p of list){ const e=eraOf(p); if(!groups.has(e.k)) groups.set(e.k,{e,ps:[]}); groups.get(e.k).ps.push(p); }
   for(const {e,ps} of groups.values()){
     h+=`<section class="folder" style="--c:${e.c};--fg:${e.fg}"><div class="tab">${esc(e.ad)} <small>${esc(e.r)}</small></div><div class="cards">${
-      ps.map(p=>`<button class="card${isAkim(p)?" akim":""}" type="button" data-open="${esc(p.id)}"><span class="yr">${isAkim(p)?`<span class="akimtag">Akım</span>`:esc(yearLabel(p.dogum))}</span><span class="nm">${esc(p.ad)}${heard.has(p.id)?`<span class="heard">kayıtta geçti</span>`:""}</span><span class="meta">${esc([p.yil,p.yer].filter(Boolean).join(" · "))}</span>${p.ozet?`<span class="oz">${esc(p.ozet)}</span>`:""}</button>`).join("")}</div></section>`;
+      ps.map(p=>`<button class="card${isAkim(p)?" akim":""}${p.foto?" hasph":""}" type="button" data-open="${esc(p.id)}">${p.foto?`<img class="ph" src="${esc(p.foto)}" alt="" loading="lazy" decoding="async">`:""}<span class="yr">${isAkim(p)?`<span class="akimtag">Akım</span>`:esc(yearLabel(p.dogum))}</span><span class="nm">${esc(p.ad)}${heard.has(p.id)?`<span class="heard">kayıtta geçti</span>`:""}</span><span class="meta">${esc([p.yil,p.yer].filter(Boolean).join(" · "))}</span>${p.ozet?`<span class="oz">${esc(p.ozet)}</span>`:""}</button>`).join("")}</div></section>`;
   }
   if(!list.length) h+=`<div class="empty"><strong>Arşiv boş</strong>Claude'a bir konuşmanın transkriptini gönder.</div>`;
   viewEl.innerHTML=h;
@@ -467,47 +483,68 @@ function vDosya(){
   viewEl.innerHTML=h;
 }
 const NT={fikir:{ad:"Fikir",c:"var(--ronesans)",f:"var(--ink)"}, okunacak:{ad:"Okunacak",c:"var(--antik)",f:"var(--chalk)"}, izlenecek:{ad:"İzlenecek",c:"var(--aydinlanma)",f:"var(--chalk)"}, soru:{ad:"Soru",c:"var(--ortacag)",f:"var(--chalk)"}};
-let newType="fikir", nFilter="", editId=null, openNote=null;
+const NS={def:{type:"fikir",edit:null,open:null}, dos:{type:"fikir",edit:null,open:null,key:null}};
+let nFilter="";
 const ntOf = n => NT[n.tur] ? n.tur : "fikir";
 function typeBtns(attr, cur){ return `<div class="types">${Object.entries(NT).map(([k,v])=>`<button type="button" ${attr}="${k}" style="--nc:${v.c};--nf:${v.f}" aria-pressed="${k===cur}"><i></i>${v.ad}</button>`).join("")}</div>`; }
 const shortDate = d => { try{ return new Date(d).toLocaleDateString("tr-TR",{day:"numeric",month:"short"}); }catch(e){ return ""; } };
-function vDefter(){
-  const keepId = document.activeElement && ["dm","dl","em","el"].includes(document.activeElement.id) ? document.activeElement.id : null;
-  const dm=$("#dm")?.value||"", dl=$("#dl")?.value||"", em=$("#em")?.value, el=$("#el")?.value;
-  const items=[...notebook].filter(n=>!nFilter || ntOf(n)===nFilter).sort((a,b)=>String(b.tarih).localeCompare(String(a.tarih)));
-  const counts={}; for(const n of notebook){ const t=ntOf(n); counts[t]=(counts[t]||0)+1; }
-  const openId = (openNote && items.some(n=>n.id===openNote)) ? openNote : (items[0]&&items[0].id);
-  let h=`<div class="nb"><div class="nb-head"><h2>Defter</h2><span class="cnt">${notebook.length} not</span></div>
-    <div class="pills"><button type="button" data-filter="" aria-pressed="${!nFilter}">Hepsi</button>${Object.entries(NT).map(([k,v])=>`<button type="button" data-filter="${k}" style="--nc:${v.c}" aria-pressed="${nFilter===k}"><i></i>${v.ad} · ${counts[k]||0}</button>`).join("")}</div>
-    <form class="compose" id="compose"><div class="top"><span>Yeni not</span><span>${esc(shortDate(new Date()))}</span></div>
-      <textarea id="dm" placeholder="Aklından geçeni yaz…" aria-label="Yeni not">${esc(dm)}</textarea>
-      <input id="dl" type="url" inputmode="url" placeholder="Bağlantı ekle (isteğe bağlı)" aria-label="Bağlantı" value="${esc(dl)}">
-      <div class="bar">${typeBtns("data-ntype",newType)}<button class="go" type="submit" aria-label="Notu ekle">↑</button></div></form>
-    <div class="stack">`;
-  if(!readyN) h+=`<p class="nempty">Defter açılıyor…</p>`;
-  else if(!items.length) h+=`<p class="nempty">${nFilter?"Bu türde not yok.":"Henüz not yok. İlk notu yukarıya yaz."}</p>`;
+const byDate = (a,b)=>String(b.tarih).localeCompare(String(a.tarih));
+/* keep what is being typed (and the caret) across re-renders */
+function grabInputs(root){
+  const o={vals:{},focus:null}; if(!root) return o;
+  root.querySelectorAll("[data-f]").forEach(x=>{ o.vals[x.dataset.f]=x.value; });
+  const ae=document.activeElement;
+  if(ae && root.contains(ae) && ae.dataset && ae.dataset.f) o.focus={f:ae.dataset.f, s:ae.selectionStart, e:ae.selectionEnd};
+  return o;
+}
+function restoreFocus(root,g){ if(!g||!g.focus) return; const x=root.querySelector(`[data-f="${g.focus.f}"]`); if(x){ x.focus({preventScroll:true}); try{ x.setSelectionRange(g.focus.s,g.focus.e); }catch(_){} } }
+/* one note component, used by the notebook and by every dossier */
+function noteStack(scope, items, g, o){
+  const st=NS[scope], v0=g.vals;
+  const openId=(st.open && items.some(n=>n.id===st.open)) ? st.open : (items[0]&&items[0].id);
+  let h=`<form class="compose" data-compose="${scope}"><div class="top"><span>${esc(o.title||"Yeni not")}</span><span>${esc(shortDate(new Date()))}</span></div>
+    <textarea data-f="${scope}-m" placeholder="${esc(o.ph||"Aklından geçeni yaz…")}" aria-label="Yeni not">${esc(v0[scope+"-m"]||"")}</textarea>
+    <input data-f="${scope}-l" type="url" inputmode="url" placeholder="Bağlantı ekle (isteğe bağlı)" aria-label="Bağlantı" value="${esc(v0[scope+"-l"]||"")}">
+    <div class="bar">${typeBtns("data-ntype",st.type)}<button class="go" type="submit" aria-label="Notu ekle">↑</button></div></form><div class="stack">`;
+  if(!items.length) h+=`<p class="nempty">${esc(o.empty)}</p>`;
   for(const n of items){
-    const t=ntOf(n), isOpen=n.id===openId, editing=editId===n.id, et=editing?(n._et||t):t, v=NT[et];
+    const t=ntOf(n), isOpen=n.id===openId, editing=st.edit===n.id, et=editing?(n._et||t):t, v=NT[et];
     const lines=String(n.metin||"").split("\n"); const title=lines[0]||(n.link||"").replace(/^https?:\/\//,""); const rest=lines.slice(1).join("\n").trim();
     const arrow = n.link ? `<a class="arrow" href="${esc(n.link)}" target="_blank" rel="noopener" aria-label="Bağlantıyı aç">↗</a>` : `<span class="arrow" aria-hidden="true">${isOpen?"↓":"↗"}</span>`;
-    h+=`<article class="ncard${isOpen?" open":""}" style="--nc:${v.c};--nf:${v.f}" data-expand="${esc(n.id)}"><div class="nrow"><span class="badge">${v.ad}</span><span class="ndate">${esc(fmtDate(n.tarih))}</span>${arrow}</div>`;
+    const chip = (o.chips && n.bag) ? `<button class="nchip" type="button" data-open="${esc(n.bag)}">${esc(nameOf(n.bag))}</button>` : "";
+    h+=`<article class="ncard${isOpen?" open":""}" style="--nc:${v.c};--nf:${v.f}" data-expand="${esc(n.id)}"><div class="nrow"><span class="badge">${v.ad}</span>${chip}<span class="ndate">${esc(chip?shortDate(n.tarih):fmtDate(n.tarih))}</span>${arrow}</div>`;
     if(editing){
-      h+=`<textarea id="em" aria-label="Notu düzenle">${esc(em!=null?em:(n.metin||""))}</textarea><input id="el" type="url" placeholder="Bağlantı" value="${esc(el!=null?el:(n.link||""))}">${typeBtns("data-etype",et)}<div class="nacts"><button type="button" data-save="${esc(n.id)}"><b>Kaydet</b></button><button type="button" data-cancel>Vazgeç</button></div>`;
+      const em=v0[scope+"-em"], el=v0[scope+"-el"];
+      h+=`<textarea data-f="${scope}-em" aria-label="Notu düzenle">${esc(em!=null?em:(n.metin||""))}</textarea><input data-f="${scope}-el" type="url" placeholder="Bağlantı" value="${esc(el!=null?el:(n.link||""))}">${typeBtns("data-etype",et)}<div class="nacts"><button type="button" data-save="${esc(n.id)}"><b>Kaydet</b></button><button type="button" data-cancel>Vazgeç</button></div>`;
     } else {
       h+=`<h3 class="ntitle">${esc(title)}</h3>`;
       if(isOpen){ h+=`${rest?`<p class="nbody">${esc(rest)}</p>`:""}${n.link?`<a class="nlink" href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.link.replace(/^https?:\/\//,""))}</a>`:""}<div class="nacts"><button type="button" data-edit="${esc(n.id)}">Düzenle</button><button type="button" data-del="${esc(n.id)}">${n._confirm?"Emin misin? Sil":"Sil"}</button></div>`; }
     }
     h+=`</article>`;
   }
-  viewEl.innerHTML=h+`</div></div>`;
-  if(keepId){ const x=$("#"+keepId); if(x){ x.focus(); try{ x.setSelectionRange(x.value.length,x.value.length); }catch(_){} } }
+  return h+`</div>`;
 }
+function vDefter(){
+  const g=grabInputs(viewEl.querySelector('[data-scope="def"]'));
+  const items=notebook.filter(n=>!nFilter || ntOf(n)===nFilter).sort(byDate);
+  const counts={}; for(const n of notebook){ const t=ntOf(n); counts[t]=(counts[t]||0)+1; }
+  viewEl.innerHTML=`<div class="nb"><div class="nb-head"><h2>Defter</h2><span class="cnt">${notebook.length} not</span></div>
+    <div class="pills"><button type="button" data-filter="" aria-pressed="${!nFilter}">Hepsi</button>${Object.entries(NT).map(([k,v])=>`<button type="button" data-filter="${k}" style="--nc:${v.c}" aria-pressed="${nFilter===k}"><i></i>${v.ad} · ${counts[k]||0}</button>`).join("")}</div>
+    <div class="nscope" data-scope="def">${noteStack("def",items,g,{chips:true, empty: nFilter?"Bu türde not yok.":"Henüz not yok. İlk notu yukarıya yaz."})}</div></div>`;
+  restoreFocus(viewEl,g);
+}
+let dosG=null;
+function dosNotesHtml(key){
+  if(NS.dos.key!==key) NS.dos={type:"fikir",edit:null,open:null,key};
+  const items=notebook.filter(n=>n.bag===key).sort(byDate);
+  return `<p class="lbl">Notlarım${items.length?` · ${items.length}`:""}</p><div class="nscope" data-scope="dos">${noteStack("dos",items,dosG||{vals:{}},{title:"Bu dosyaya not", ph:"Aklına takılan, itiraz ettiğin, hayatında dokunduğu yer…", empty:"Bu dosyada henüz notun yok. Yazdıkların Defter'de de görünür."})}</div>`;
+}
+function rerender(scope){ scope==="dos" ? renderDossier() : vDefter(); }
 
 /* dossier */
 function nameOf(key){ if(key.startsWith("t:")){ const t=talks.get(key.slice(2)); return t?t.baslik:"Kayıt"; } return people.get(key)?.ad || refsIndex().get(key)?.ad || key; }
 function link(ad,id){ const s=id||slug(ad); return `<button class="lnk${people.has(s)?"":" ghost"}" type="button" data-open="${esc(s)}">${esc(ad)}</button>`; }
 function sec(k,title,count,body,def){ const open=(k in openSecs)?openSecs[k]:!!def; return `<details class="sec" data-sec="${k}"${open?" open":""}><summary><span>${title}${count?` · ${count}`:""}</span></summary><div class="secbody">${body}</div></details>`; }
-function notesBlock(val,when){ return `<p class="lbl">Notlarım</p><textarea class="mynotes" id="notes" placeholder="Aklına takılan, itiraz ettiğin, hayatında dokunduğu yer…">${esc(val||"")}</textarea><div class="saved" id="saved">${when?`Son değişiklik ${esc(fmtDate(when))}`:""}</div>`; }
 function initials(ad){ const w=String(ad).split(/\s+/).filter(Boolean); return (w.length>1? w[0][0]+w[w.length-1][0] : String(ad).slice(0,2)).toLocaleUpperCase("tr"); }
 
 function openItem(key, push=true){
@@ -517,25 +554,28 @@ function openItem(key, push=true){
   renderDossier(); dos.scrollTop=0;
 }
 function back(){ if(stack.length){ openKey=stack.pop(); renderDossier(); dos.scrollTop=0; } else closeDossier(); }
-function closeDossier(){ openKey=null; stack=[]; dos.hidden=true; document.documentElement.style.overflow=""; render(); }
+function closeDossier(){ openKey=null; stack=[]; dos.dataset.key=""; dos.hidden=true; document.documentElement.style.overflow=""; render(); }
 
 function renderDossier(){
   if(!openKey) return;
-  const ae=document.activeElement, keep = ae && ae.id==="notes" && dos.contains(ae) ? {v:ae.value,s:ae.selectionStart,e:ae.selectionEnd} : null;
+  const sameKey = dos.dataset.key===openKey, scr=dos.scrollTop;
+  dosG = sameKey ? grabInputs(dos.querySelector('[data-scope="dos"]')) : {vals:{},focus:null};
   let body="", c="var(--desk)", fg="var(--chalk)", ttl=nameOf(openKey);
   if(openKey.startsWith("t:")){ c="#202020"; body=talkHtml(openKey.slice(2)); }
   else if(people.has(openKey)){ const p=people.get(openKey), e=eraOf(p); c=e.c; fg=e.fg; body=personHtml(openKey,p,e); }
   else { c="#2A2A2A"; body=ghostHtml(); }
   dos.style.setProperty("--c",c); dos.style.setProperty("--fg",fg);
   dos.innerHTML=`<div class="dbar" id="dbar"><button type="button" data-act="back">← ${stack.length?"Geri":"Arşiv"}</button><span class="ttl">${esc(ttl)}</span><button type="button" data-act="close" aria-label="Kapat">Kapat ✕</button></div><div class="dwrap">${body}</div>`;
-  if(keep){ const el=$("#notes"); if(el){ el.value=keep.v; el.focus(); try{el.setSelectionRange(keep.s,keep.e);}catch(_){} } }
+  dos.dataset.key=openKey;
+  if(sameKey){ dos.scrollTop=scr; restoreFocus(dos,dosG); }
+  dosG=null;
 }
 
 function personHtml(id,p,e){
   const hk=paras(p.hikaye), kp=paras(p.kisilik);
   const facts=[[isAkim(p)?"Sürdü":"Yaşadı",p.yil],["Tür",isAkim(p)?"Akım / okul":""],["Hicri",p.hicri],["Yer",p.yer],["Alan",p.gelenek],["Dönem",e.ad]].filter(x=>x[1]);
   let h=`<h2 class="bigname">${esc(p.ad)}</h2><article class="sheet"><span class="holes"></span>
-    <div class="idrow"><div><div class="photo">${p.foto?`<img src="${esc(p.foto)}" alt="${esc(p.ad)}">`:`<span class="mono">${esc(initials(p.ad))}</span>`}<span class="clip"></span>${p.fotoNot?`<span class="cap">${esc(p.fotoNot)}</span>`:""}</div>
+    <div class="idrow"><div><div class="photo">${p.foto?`<img src="${esc(p.foto)}" alt="${esc(p.ad)}" decoding="async">`:`<span class="mono">${esc(initials(p.ad))}</span>`}<span class="clip"></span>${p.fotoNot?`<span class="cap">${esc(p.fotoNot)}</span>`:""}</div>
       <div class="facts">${facts.map(([k,v])=>`<div><b>${k}:</b>${esc(v)}</div>`).join("")}</div></div>
       <div class="prose">${hk.map((x,i)=>`<p${i===0?' class="drop"':""}>${esc(x)}</p>`).join("")}</div></div>
     <div class="notes3">
@@ -554,8 +594,9 @@ function personHtml(id,p,e){
   if(heard.length) h+=sec("duydum","Geçtiği kayıtlar",heard.length,`<ul class="rels">${heard.map(x=>`<li><button class="lnk" type="button" data-open="t:${esc(x.id)}">${esc(x.t.baslik)}</button><span class="n">${esc(x.ne||"")}</span></li>`).join("")}</ul>`,true);
   if(arr(p.kesif).length) h+=sec("kesif","Okuma ve izleme",arr(p.kesif).length,`<ul class="next">${arr(p.kesif).map(k=>`<li><span class="k">${esc(k.tur)}</span><span>${esc(k.ad)}${k.not?`<small>${esc(k.not)}</small>`:""}</span></li>`).join("")}</ul>`,true);
   if(rel||backs.length) h+=`</div>`;
-  const dn=state.dosya[id]||{};
-  h+=notesBlock(dn.metin, dn.guncel)+`</article>`;
+  h+=dosNotesHtml(id);
+  if(p.foto && p.fotoKaynak){ const k=p.fotoKaynak; h+=`<p class="credit">Görsel: ${esc(k.artist||"Bilinmiyor")} · ${esc(k.lic||"")} · <a href="${esc(k.page)}" target="_blank" rel="noopener">Wikimedia Commons ↗</a></p>`; }
+  h+=`</article>`;
   const list=sortedPeople(), i=list.findIndex(x=>x.id===id), prev=list[i-1], next=list[i+1];
   h+=`<div class="pager">${prev?`<button type="button" data-open="${esc(prev.id)}" data-nopush="1">← Önceki dosya<b>${esc(prev.ad)}</b></button>`:"<span></span>"}${next?`<button type="button" data-open="${esc(next.id)}" data-nopush="1" style="text-align:right">Sonraki dosya →<b>${esc(next.ad)}</b></button>`:""}</div>`;
   return h;
@@ -587,8 +628,7 @@ function talkHtml(id){
   if(bl.length) h+=sec("belirsiz","Kayıtta anlaşılmayanlar",bl.length,`<ul class="rels">${bl.map(b=>`<li><span class="n">${esc(b)}</span></li>`).join("")}</ul>`,false);
   const sz=arr(t.sozluk);
   if(sz.length) h+=sec("sozluk","Sözlük",sz.length,`<p class="n" style="color:var(--ink2);margin:0 0 14px;font-size:14.5px">Konuşmada herkesin bildiği varsayılan kelimeler.</p><dl class="gloss">${sz.map(g=>`<div><dt>${esc(g.ad)}</dt><dd>${esc(g.aciklama)}</dd></div>`).join("")}</dl>`,true);
-  const dn=state.dosya["t:"+id]||{};
-  h+=`</div>`+notesBlock(dn.metin,dn.guncel)+`</article>`;
+  h+=`</div>`+dosNotesHtml("t:"+id)+`</article>`;
   return h;
 }
 
@@ -603,11 +643,10 @@ function ghostHtml(){
 
 /* writes */
 let toastT; function toast(m){ const t=$("#toast"); t.textContent=m; t.classList.add("on"); clearTimeout(toastT); toastT=setTimeout(()=>t.classList.remove("on"),2600); }
-function saveNotes(key,val){
-  state.dosya[key]={metin:val, guncel:now()}; touch();
-  const s=$("#saved"); if(s&&openKey===key) s.textContent = token() ? "Kaydedildi" : "Kaydedildi · sadece bu cihazda";
-}
 const newId=()=>Date.now().toString(36)+Math.random().toString(36).slice(2,8);
+const scopeOf = el => (el.closest("[data-scope]")||{dataset:{scope:"def"}}).dataset.scope;
+const field = (scope,f) => document.querySelector(`[data-scope="${scope}"] [data-f="${scope}-${f}"]`);
+const fixLink = l => (l && !/^https?:\/\//i.test(l)) ? "https://"+l : l;
 
 /* events */
 document.addEventListener("click",e=>{
@@ -618,24 +657,25 @@ document.addEventListener("click",e=>{
   const a=e.target.closest("[data-act]");
   if(a){ a.dataset.act==="back"?back():closeDossier(); return; }
   const d=e.target.closest("[data-del]");
-  if(d){ const id=d.dataset.del, n=notebook.find(x=>x.id===id); if(!n) return;
-    if(!n._confirm){ n._confirm=true; vDefter(); return; }
-    state.defter[id]={silindi:true, guncel:now()}; touch(); vDefter(); return; }
+  if(d){ const sc=scopeOf(d), id=d.dataset.del, n=notebook.find(x=>x.id===id); if(!n) return;
+    if(!n._confirm){ n._confirm=true; rerender(sc); return; }
+    state.defter[id]={silindi:true, guncel:now()}; touch(); rerender(sc); return; }
   const nt=e.target.closest("[data-ntype]");
-  if(nt){ newType=nt.dataset.ntype; document.querySelectorAll("[data-ntype]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.ntype===newType))); return; }
+  if(nt){ const sc=scopeOf(nt); NS[sc].type=nt.dataset.ntype; nt.closest(".types").querySelectorAll("[data-ntype]").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.ntype===NS[sc].type))); return; }
   const ft=e.target.closest("[data-filter]");
   if(ft){ nFilter=ft.dataset.filter; vDefter(); return; }
   const ed=e.target.closest("[data-edit]");
-  if(ed){ editId=ed.dataset.edit; notebook.forEach(n=>{ delete n._et; }); vDefter(); const x=$("#em"); if(x){ x.focus(); } return; }
+  if(ed){ const sc=scopeOf(ed); NS[sc].edit=ed.dataset.edit; notebook.forEach(n=>{ delete n._et; }); rerender(sc); const x=field(sc,"em"); if(x) x.focus(); return; }
   const et=e.target.closest("[data-etype]");
-  if(et){ const n=notebook.find(x=>x.id===editId); if(n){ n._et=et.dataset.etype; vDefter(); } return; }
-  if(e.target.closest("[data-cancel]")){ editId=null; vDefter(); return; }
+  if(et){ const sc=scopeOf(et), n=notebook.find(x=>x.id===NS[sc].edit); if(n){ n._et=et.dataset.etype; rerender(sc); } return; }
+  const cn=e.target.closest("[data-cancel]");
+  if(cn){ const sc=scopeOf(cn); NS[sc].edit=null; rerender(sc); return; }
   const sv=e.target.closest("[data-save]");
-  if(sv){ const id=sv.dataset.save, n=notebook.find(x=>x.id===id); if(!n) return;
-    const metin=$("#em").value.trim(); let link=$("#el").value.trim(); if(link && !/^https?:\/\//i.test(link)) link="https://"+link;
-    const tur=n._et||ntOf(n); delete n._et; editId=null;
-    state.defter[id]={...(state.defter[id]||{}),metin,link,tur,guncel:now()}; touch(); vDefter(); toast("Not güncellendi"); return; }
-  const sy=e.target.closest("[data-sync]");
+  if(sv){ const sc=scopeOf(sv), id=sv.dataset.save, n=notebook.find(x=>x.id===id); if(!n) return;
+    const metin=(field(sc,"em")?.value||"").trim(), link=fixLink((field(sc,"el")?.value||"").trim());
+    const tur=n._et||ntOf(n); delete n._et; NS[sc].edit=null;
+    state.defter[id]={...(state.defter[id]||{}),metin,link,tur,guncel:now()}; touch(); rerender(sc); toast("Not güncellendi"); return; }
+const sy=e.target.closest("[data-sync]");
   if(sy){ const a=sy.dataset.sync;
     if(a==="connect") connectToken();
     else if(a==="now"){ $("#syncPop").hidden=true; sync(); }
@@ -645,32 +685,31 @@ document.addEventListener("click",e=>{
   if(e.target.closest("#syncBtn")){ openSync(); return; }
   if(e.target.id==="syncPop"){ e.target.hidden=true; return; }
   const ex=e.target.closest("[data-expand]");
-  if(ex && !e.target.closest("a,button,textarea,input")){ if(editId) return; openNote=ex.dataset.expand; vDefter(); return; }
+  if(ex && !e.target.closest("a,button,textarea,input")){ const sc=scopeOf(ex); if(NS[sc].edit) return; NS[sc].open=ex.dataset.expand; rerender(sc); return; }
 });
 document.addEventListener("submit",e=>{
-  if(e.target.id!=="compose") return; e.preventDefault();
-  const m=$("#dm").value.trim(); let l=$("#dl").value.trim();
+  const f=e.target.closest("[data-compose]"); if(!f) return; e.preventDefault();
+  const sc=f.dataset.compose, mEl=field(sc,"m"), lEl=field(sc,"l");
+  const m=(mEl?.value||"").trim(), l=fixLink((lEl?.value||"").trim());
   if(!m && !l) return;
-  if(l && !/^https?:\/\//i.test(l)) l="https://"+l;
   const t=now(), id=newId();
-  state.defter[id]={metin:m, link:l, tur:newType, tarih:t, guncel:t};
-  openNote=id; $("#dm").value=""; $("#dl").value=""; $("#dm").blur();
-  touch(); vDefter(); toast("Not eklendi");
+  state.defter[id]={metin:m, link:l, tur:NS[sc].type, tarih:t, guncel:t, ...(sc==="dos"&&NS.dos.key?{bag:NS.dos.key}:{})};
+  NS[sc].open=id; if(mEl){ mEl.value=""; mEl.blur(); } if(lEl) lEl.value="";
+  touch(); rerender(sc); toast("Not eklendi");
 });
 document.addEventListener("keydown",e=>{ if(e.key==="Enter" && e.target.id==="tokIn"){ e.preventDefault(); connectToken(); } if(e.key==="Escape"){ const p=$("#syncPop"); if(p && !p.hidden) p.hidden=true; } });
 viewEl.addEventListener("input",e=>{
   if(e.target.id!=="q") return; q=e.target.value.trim(); const pos=e.target.selectionStart; vDosya(); const el=$("#q"); if(el){ el.focus(); try{el.setSelectionRange(pos,pos);}catch(_){} }
 });
 dos.addEventListener("toggle",e=>{ const d=e.target; if(d.matches&&d.matches("details.sec")){ openSecs[d.dataset.sec]=d.open; lsSet("kenar2-secs",openSecs); } },true);
-let st; dos.addEventListener("input",e=>{ if(e.target.id!=="notes") return; const v=e.target.value,k=openKey; $("#saved").textContent="Yazıyor…"; clearTimeout(st); st=setTimeout(()=>saveNotes(k,v),900); });
 dos.addEventListener("scroll",()=>{ const b=$("#dbar"); if(b) b.classList.toggle("scrolled", dos.scrollTop>140); },{passive:true});
 document.addEventListener("keydown",e=>{ if(e.key==="Escape" && openKey) closeDossier(); });
 
 /* boot */
 function refreshAll(){
   if(!(readyP&&readyT)) return;
-  const ae=document.activeElement, typing = ae && /^(notes|dm|dl|em|el|q|tokIn)$/.test(ae.id);
-  if(openKey){ if(!(ae && ae.id==="notes")) renderDossier(); }
+  const ae=document.activeElement, typing = ae && /^(TEXTAREA|INPUT)$/.test(ae.tagName);
+  if(openKey){ if(!(typing && dos.contains(ae))) renderDossier(); }
   else if(!typing) render();
 }
 async function loadContent(){
@@ -681,6 +720,7 @@ async function loadContent(){
     readyP=readyT=true; failed=false; refreshAll();
   }catch(e){ if(!(readyP&&readyT)){ failed=true; render(); } }
 }
+if(migrateDosya()){ meta.dirty=true; persist(); }
 rebuildNotebook(); render(); updateSyncUi(); loadContent(); sync();
 window.addEventListener("online",()=>{ meta.err=null; sync(); loadContent(); });
 window.addEventListener("offline",()=>{ meta.err="offline"; persist(); updateSyncUi(); });

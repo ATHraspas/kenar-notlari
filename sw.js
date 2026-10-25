@@ -1,7 +1,7 @@
 /* Kenar Notları – offline support.
    Page and content: network first (so new talks show up), cached copy when offline.
    Fonts and icons: cache first. GitHub API calls are never touched. */
-const V = "kenar-v1";
+const V = "kenar-v2";
 const SHELL = ["./", "index.html", "fonts.css", "manifest.webmanifest", "data/icerik.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
@@ -13,6 +13,11 @@ self.addEventListener("install", e => {
       const css = await (await fetch("fonts.css")).text();
       const fonts = [...css.matchAll(/url\(([^)]+\.woff2)\)/g)].map(m => m[1]);
       await c.addAll(fonts);
+    } catch (_) {}
+    try {
+      const d = await (await fetch("data/icerik.json")).json();
+      const fotos = Object.values(d.isimler || {}).map(p => p.foto).filter(Boolean);
+      await Promise.all(fotos.map(f => c.add(f).catch(() => {})));
     } catch (_) {}
     self.skipWaiting();
   })());

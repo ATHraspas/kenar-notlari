@@ -1,40 +1,250 @@
 {
- "abdulkadir-geylani": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Shaykh_%27Abd_al_Qadir_Jalani.jpg/960px-Shaykh_%27Abd_al_Qadir_Jalani.jpg", "page": "https://commons.wikimedia.org/wiki/File:Shaykh_%27Abd_al_Qadir_Jalani.jpg", "lic": "Kamu malı", "artist": "Bilinmiyor", "not": "Sonraki yüzyıllardan temsili minyatür"},
- "aristoteles": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/960px-Aristotle_Altemps_Inv8575.jpg", "page": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg", "lic": "Kamu malı", "artist": "Lysippos'tan Roma kopyası", "not": "Mermer büst, Roma kopyası"},
- "arsimet": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domenico-Fetti_Archimedes_1620.jpg/960px-Domenico-Fetti_Archimedes_1620.jpg", "page": "https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg", "lic": "Kamu malı", "artist": "Domenico Fetti", "not": "1620'de hayal edilmiş portre"},
- "bach": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/960px-Johann_Sebastian_Bach.jpg", "page": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg", "lic": "Kamu malı", "artist": "Elias Gottlob Haussmann"},
- "bergson": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Henri_Bergson_02.jpg/960px-Henri_Bergson_02.jpg", "page": "https://commons.wikimedia.org/wiki/File:Henri_Bergson_02.jpg", "lic": "Kamu malı", "artist": "Henri Manuel"},
- "brunelleschi": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg/960px-Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg", "page": "https://commons.wikimedia.org/wiki/File:Masaccio,_cappella_brancacci,_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg", "lic": "Kamu malı", "artist": "Masaccio", "not": "Masaccio'nun freskinden ayrıntı"},
- "caravaggio": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bild-Ottavio_Leoni%2C_Caravaggio.jpg/960px-Bild-Ottavio_Leoni%2C_Caravaggio.jpg", "page": "https://commons.wikimedia.org/wiki/File:Bild-Ottavio_Leoni,_Caravaggio.jpg", "lic": "Kamu malı", "artist": "Ottavio Leoni"},
- "cezanne": {"url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Paul-Cezanne.jpg", "page": "https://commons.wikimedia.org/wiki/File:Paul-Cezanne.jpg", "lic": "Kamu malı", "artist": "Bilinmiyor"},
- "descartes": {"url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg", "page": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg", "lic": "Kamu malı", "artist": "Frans Hals'tan sonra"},
- "durer": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/D%C3%BCrer_Alte_Pinakothek.jpg/960px-D%C3%BCrer_Alte_Pinakothek.jpg", "page": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_Alte_Pinakothek.jpg", "lic": "Kamu malı", "artist": "Albrecht Dürer", "not": "Kendi portresi, 1500"},
- "empedokles": {"url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Empedokles.jpeg", "page": "https://commons.wikimedia.org/wiki/File:Empedokles.jpeg", "lic": "Kamu malı", "artist": "Bilinmiyor", "not": "Sonradan yapılmış temsili gravür"},
- "foucault": {"url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Photo_of_Michel_Foucault_on_1970_dustjacket_of_The_Order_of_Things.jpg", "page": "https://commons.wikimedia.org/wiki/File:Photo_of_Michel_Foucault_on_1970_dustjacket_of_The_Order_of_Things.jpg", "lic": "Kamu malı", "artist": "Jerry Bauer", "not": "Kelimeler ve Şeyler'in 1970 kapağından"},
- "francis-bacon": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Somer_Francis_Bacon.jpg/960px-Somer_Francis_Bacon.jpg", "page": "https://commons.wikimedia.org/wiki/File:Somer_Francis_Bacon.jpg", "lic": "Kamu malı", "artist": "Paul van Somer I"},
- "freud": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/960px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg", "page": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg", "lic": "Kamu malı", "artist": "Max Halberstadt"},
- "galileo": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff/lossy-page1-960px-Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff.jpg", "page": "https://commons.wikimedia.org/wiki/File:Galileo_Galilei_(1564-1642)_RMG_BHC2700.tiff", "lic": "Kamu malı", "artist": "Justus Sustermans"},
- "gazali": {"url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Al-Ghaz%C4%81l%C4%AB%2C_Sayr_mulhimah_min_al-Sharq_wa-al-Gharb.png", "page": "https://commons.wikimedia.org/wiki/File:Al-Ghaz%C4%81l%C4%AB,_Sayr_mulhimah_min_al-Sharq_wa-al-Gharb.png", "lic": "Kamu malı", "artist": "Bilinmiyor", "not": "Modern dönemde yapılmış temsili çizim"},
- "giordano-bruno": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_%28cropped%29.jpg/960px-Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_%28cropped%29.jpg", "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_(cropped).jpg", "lic": "CC BY 4.0", "artist": "Wellcome Collection", "not": "Opere kitabındaki gravür"},
- "hegel": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Jakob_Schlesinger_-_Hegel_1831.jpg/960px-Jakob_Schlesinger_-_Hegel_1831.jpg", "page": "https://commons.wikimedia.org/wiki/File:Jakob_Schlesinger_-_Hegel_1831.jpg", "lic": "Kamu malı", "artist": "Jakob Schlesinger", "not": "1831, ölmeden kısa süre önce"},
- "hobbes": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg/960px-Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg", "page": "https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_by_John_Michael_Wright_(colour)_(3x4_cropped).jpg", "lic": "Kamu malı", "artist": "John Michael Wright"},
- "ibn-arabi": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/%D9%82%D8%A8%D8%B1_%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%8A%D9%8A_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D8%B9%D8%B1%D8%A8%D9%8A.jpg/960px-%D9%82%D8%A8%D8%B1_%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%8A%D9%8A_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D8%B9%D8%B1%D8%A8%D9%8A.jpg", "page": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%A8%D8%B1_%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%8A%D9%8A_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D8%B9%D8%B1%D8%A8%D9%8A.jpg", "lic": "CC0", "artist": "Omar.Hafez", "not": "Şam'daki türbesi"},
- "jul-sezar": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/960px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg", "page": "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg", "lic": "Kamu malı", "artist": "Ángel M. Felicísimo", "not": "Mermer büst"},
- "kant": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Immanuel_Kant_-_Gemaelde_1.jpg/960px-Immanuel_Kant_-_Gemaelde_1.jpg", "page": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg", "lic": "Kamu malı", "artist": "Johann Gottlieb Becker"},
- "kepler": {"url": "https://upload.wikimedia.org/wikipedia/commons/7/74/JKepler.jpg", "page": "https://commons.wikimedia.org/wiki/File:JKepler.jpg", "lic": "Kamu malı", "artist": "August Köhler"},
- "kinikler": {"url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Cinico_Capitolini.jpg", "page": "https://commons.wikimedia.org/wiki/File:Cinico_Capitolini.jpg", "lic": "Kamu malı", "artist": "LuciusCommons", "not": "Bir Kinik filozof heykeli, Roma"},
- "kopernik": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/960px-Nikolaus_Kopernikus_MOT.jpg", "page": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg", "lic": "Kamu malı", "artist": "Bilinmiyor"},
- "leeuwenhoek": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Anthonie_van_Leeuwenhoek_%281632-1723%29._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg/960px-Anthonie_van_Leeuwenhoek_%281632-1723%29._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg", "page": "https://commons.wikimedia.org/wiki/File:Anthonie_van_Leeuwenhoek_(1632-1723)._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg", "lic": "Kamu malı", "artist": "Jan Verkolje"},
- "leibniz": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/960px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg", "page": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg", "lic": "Kamu malı", "artist": "Christoph Bernhard Francke"},
- "leonardo-da-vinci": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Francesco_Melzi_-_Portrait_of_Leonardo_%28colour_correction%29.png/960px-Francesco_Melzi_-_Portrait_of_Leonardo_%28colour_correction%29.png", "page": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo_(colour_correction).png", "lic": "Kamu malı", "artist": "Francesco Melzi (atfedilen)", "not": "Öğrencisi Melzi'nin çizimi"},
- "michelangelo": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/960px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg", "page": "https://commons.wikimedia.org/wiki/File:Michelangelo_Daniele_da_Volterra_(dettaglio).jpg", "lic": "Kamu malı", "artist": "Daniele da Volterra (atfedilen)"},
- "newton": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg/960px-Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg", "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg", "lic": "Kamu malı", "artist": "Godfrey Kneller", "not": "1689"},
- "pascal": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Blaise_Pascal_Versailles%2C_circa_1690.JPG/960px-Blaise_Pascal_Versailles%2C_circa_1690.JPG", "page": "https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles,_circa_1690.JPG", "lic": "Kamu malı", "artist": "François II Quesnel'den kopya"},
- "platon": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png/960px-Plato_Silanion_Musei_Capitolini_MC1377.png", "page": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.png", "lic": "Kamu malı", "artist": "Marie-Lan Nguyen (fotoğraf)", "not": "Silanion'dan Roma kopyası büst"},
- "schopenhauer": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/960px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg", "page": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg", "lic": "Kamu malı", "artist": "Johann Schäfer", "not": "1859"},
- "skolastik": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg/960px-Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg", "page": "https://commons.wikimedia.org/wiki/File:Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg", "lic": "Kamu malı", "artist": "Laurentius de Voltolina", "not": "Bologna'da bir ders, 14. yüzyıl"},
- "sokrates": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/960px-Socrates_Louvre.jpg", "page": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg", "lic": "Kamu malı", "artist": "Lysippos'tan kopya (?)", "not": "Mermer büst, Louvre"},
- "spinoza": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/960px-Spinoza.jpg", "page": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg", "lic": "Kamu malı", "artist": "Bilinmiyor"},
- "vermeer": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg/960px-Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg", "page": "https://commons.wikimedia.org/wiki/File:Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg", "lic": "Kamu malı", "artist": "Johannes Vermeer", "not": "Ressamın Atölyesi'ndeki figür; kendisi olduğu tahmin ediliyor"},
- "whitehead": {"url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/ANWhitehead.jpg", "page": "https://commons.wikimedia.org/wiki/File:ANWhitehead.jpg", "lic": "Kamu malı", "artist": "Bilinmiyor"}
+ "abdulkadir-geylani": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Shaykh_%27Abd_al_Qadir_Jalani.jpg/960px-Shaykh_%27Abd_al_Qadir_Jalani.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Shaykh_%27Abd_al_Qadir_Jalani.jpg",
+  "lic": "Kamu malı",
+  "artist": "Bilinmiyor",
+  "not": "Sonraki yüzyıllardan temsili minyatür"
+ },
+ "aristoteles": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Aristotle_Altemps_Inv8575.jpg/960px-Aristotle_Altemps_Inv8575.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg",
+  "lic": "Kamu malı",
+  "artist": "Lysippos'tan Roma kopyası",
+  "not": "Mermer büst, Roma kopyası"
+ },
+ "arsimet": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Domenico-Fetti_Archimedes_1620.jpg/960px-Domenico-Fetti_Archimedes_1620.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg",
+  "lic": "Kamu malı",
+  "artist": "Domenico Fetti",
+  "not": "1620'de hayal edilmiş portre"
+ },
+ "bach": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Johann_Sebastian_Bach.jpg/960px-Johann_Sebastian_Bach.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg",
+  "lic": "Kamu malı",
+  "artist": "Elias Gottlob Haussmann"
+ },
+ "bergson": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Henri_Bergson_02.jpg/960px-Henri_Bergson_02.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Henri_Bergson_02.jpg",
+  "lic": "Kamu malı",
+  "artist": "Henri Manuel"
+ },
+ "brunelleschi": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg/960px-Masaccio%2C_cappella_brancacci%2C_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Masaccio,_cappella_brancacci,_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg",
+  "lic": "Kamu malı",
+  "artist": "Masaccio",
+  "not": "Masaccio'nun freskinden ayrıntı"
+ },
+ "caravaggio": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Bild-Ottavio_Leoni%2C_Caravaggio.jpg/960px-Bild-Ottavio_Leoni%2C_Caravaggio.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bild-Ottavio_Leoni,_Caravaggio.jpg",
+  "lic": "Kamu malı",
+  "artist": "Ottavio Leoni"
+ },
+ "cezanne": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Paul-Cezanne.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Paul-Cezanne.jpg",
+  "lic": "Kamu malı",
+  "artist": "Bilinmiyor"
+ },
+ "descartes": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg",
+  "lic": "Kamu malı",
+  "artist": "Frans Hals'tan sonra"
+ },
+ "durer": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/D%C3%BCrer_Alte_Pinakothek.jpg/960px-D%C3%BCrer_Alte_Pinakothek.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_Alte_Pinakothek.jpg",
+  "lic": "Kamu malı",
+  "artist": "Albrecht Dürer",
+  "not": "Kendi portresi, 1500"
+ },
+ "empedokles": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Empedokles.jpeg",
+  "page": "https://commons.wikimedia.org/wiki/File:Empedokles.jpeg",
+  "lic": "Kamu malı",
+  "artist": "Bilinmiyor",
+  "not": "Sonradan yapılmış temsili gravür"
+ },
+ "foucault": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Photo_of_Michel_Foucault_on_1970_dustjacket_of_The_Order_of_Things.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Photo_of_Michel_Foucault_on_1970_dustjacket_of_The_Order_of_Things.jpg",
+  "lic": "Kamu malı",
+  "artist": "Jerry Bauer",
+  "not": "Kelimeler ve Şeyler'in 1970 kapağından"
+ },
+ "francis-bacon": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Somer_Francis_Bacon.jpg/960px-Somer_Francis_Bacon.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Somer_Francis_Bacon.jpg",
+  "lic": "Kamu malı",
+  "artist": "Paul van Somer I"
+ },
+ "freud": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg/960px-Sigmund_Freud%2C_by_Max_Halberstadt_%28cropped%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg",
+  "lic": "Kamu malı",
+  "artist": "Max Halberstadt"
+ },
+ "galileo": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff/lossy-page1-960px-Galileo_Galilei_%281564-1642%29_RMG_BHC2700.tiff.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Galileo_Galilei_(1564-1642)_RMG_BHC2700.tiff",
+  "lic": "Kamu malı",
+  "artist": "Justus Sustermans"
+ },
+ "gazali": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Al-Ghaz%C4%81l%C4%AB%2C_Sayr_mulhimah_min_al-Sharq_wa-al-Gharb.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Al-Ghaz%C4%81l%C4%AB,_Sayr_mulhimah_min_al-Sharq_wa-al-Gharb.png",
+  "lic": "Kamu malı",
+  "artist": "Bilinmiyor",
+  "not": "Modern dönemde yapılmış temsili çizim"
+ },
+ "giordano-bruno": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_%28cropped%29.jpg/960px-Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_%28cropped%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_(cropped).jpg",
+  "lic": "CC BY 4.0",
+  "artist": "Wellcome Collection",
+  "not": "Opere kitabındaki gravür"
+ },
+ "hegel": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Jakob_Schlesinger_-_Hegel_1831.jpg/960px-Jakob_Schlesinger_-_Hegel_1831.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jakob_Schlesinger_-_Hegel_1831.jpg",
+  "lic": "Kamu malı",
+  "artist": "Jakob Schlesinger",
+  "not": "1831, ölmeden kısa süre önce"
+ },
+ "hobbes": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg/960px-Thomas_Hobbes_by_John_Michael_Wright_%28colour%29_%283x4_cropped%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_by_John_Michael_Wright_(colour)_(3x4_cropped).jpg",
+  "lic": "Kamu malı",
+  "artist": "John Michael Wright"
+ },
+ "ibn-arabi": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/%D9%82%D8%A8%D8%B1_%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%8A%D9%8A_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D8%B9%D8%B1%D8%A8%D9%8A.jpg/960px-%D9%82%D8%A8%D8%B1_%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%8A%D9%8A_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D8%B9%D8%B1%D8%A8%D9%8A.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%A8%D8%B1_%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%8A%D9%8A_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D8%B9%D8%B1%D8%A8%D9%8A.jpg",
+  "lic": "CC0",
+  "artist": "Omar.Hafez",
+  "not": "Şam'daki türbesi"
+ },
+ "jul-sezar": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/960px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg",
+  "lic": "Kamu malı",
+  "artist": "Ángel M. Felicísimo",
+  "not": "Mermer büst"
+ },
+ "kant": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Immanuel_Kant_-_Gemaelde_1.jpg/960px-Immanuel_Kant_-_Gemaelde_1.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg",
+  "lic": "Kamu malı",
+  "artist": "Johann Gottlieb Becker"
+ },
+ "kepler": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/7/74/JKepler.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:JKepler.jpg",
+  "lic": "Kamu malı",
+  "artist": "August Köhler"
+ },
+ "kinikler": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Cinico_Capitolini.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cinico_Capitolini.jpg",
+  "lic": "Kamu malı",
+  "artist": "LuciusCommons",
+  "not": "Bir Kinik filozof heykeli, Roma"
+ },
+ "kopernik": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Nikolaus_Kopernikus_MOT.jpg/960px-Nikolaus_Kopernikus_MOT.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg",
+  "lic": "Kamu malı",
+  "artist": "Bilinmiyor"
+ },
+ "leeuwenhoek": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Anthonie_van_Leeuwenhoek_%281632-1723%29._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg/960px-Anthonie_van_Leeuwenhoek_%281632-1723%29._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg",
+  "page": "https://commons.wikimedia.org/wiki/File:Anthonie_van_Leeuwenhoek_(1632-1723)._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg",
+  "lic": "Kamu malı",
+  "artist": "Jan Verkolje"
+ },
+ "leibniz": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg/960px-Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_%28ca._1695%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg",
+  "lic": "Kamu malı",
+  "artist": "Christoph Bernhard Francke"
+ },
+ "leonardo-da-vinci": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Francesco_Melzi_-_Portrait_of_Leonardo_%28colour_correction%29.png/960px-Francesco_Melzi_-_Portrait_of_Leonardo_%28colour_correction%29.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo_(colour_correction).png",
+  "lic": "Kamu malı",
+  "artist": "Francesco Melzi (atfedilen)",
+  "not": "Öğrencisi Melzi'nin çizimi"
+ },
+ "michelangelo": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg/960px-Michelangelo_Daniele_da_Volterra_%28dettaglio%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Michelangelo_Daniele_da_Volterra_(dettaglio).jpg",
+  "lic": "Kamu malı",
+  "artist": "Daniele da Volterra (atfedilen)"
+ },
+ "newton": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg/960px-Portrait_of_Sir_Isaac_Newton%2C_1689_%28brightened%29.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg",
+  "lic": "Kamu malı",
+  "artist": "Godfrey Kneller",
+  "not": "1689"
+ },
+ "pascal": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Blaise_Pascal_Versailles%2C_circa_1690.JPG/960px-Blaise_Pascal_Versailles%2C_circa_1690.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles,_circa_1690.JPG",
+  "lic": "Kamu malı",
+  "artist": "François II Quesnel'den kopya"
+ },
+ "platon": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png/960px-Plato_Silanion_Musei_Capitolini_MC1377.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.png",
+  "lic": "Kamu malı",
+  "artist": "Marie-Lan Nguyen (fotoğraf)",
+  "not": "Silanion'dan Roma kopyası büst"
+ },
+ "schopenhauer": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg/960px-Arthur_Schopenhauer_by_J_Sch%C3%A4fer%2C_1859b.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg",
+  "lic": "Kamu malı",
+  "artist": "Johann Schäfer",
+  "not": "1859"
+ },
+ "skolastik": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg/960px-Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg",
+  "lic": "Kamu malı",
+  "artist": "Laurentius de Voltolina",
+  "not": "Bologna'da bir ders, 14. yüzyıl"
+ },
+ "sokrates": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Socrates_Louvre.jpg/960px-Socrates_Louvre.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg",
+  "lic": "Kamu malı",
+  "artist": "Lysippos'tan kopya (?)",
+  "not": "Mermer büst, Louvre"
+ },
+ "spinoza": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Spinoza.jpg/960px-Spinoza.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg",
+  "lic": "Kamu malı",
+  "artist": "Bilinmiyor"
+ },
+ "vermeer": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg/960px-Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg",
+  "lic": "Kamu malı",
+  "artist": "Johannes Vermeer",
+  "not": "1656 tarihli bir tablosundaki figür; kendisi olduğu düşünülüyor"
+ },
+ "whitehead": {
+  "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/ANWhitehead.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:ANWhitehead.jpg",
+  "lic": "Kamu malı",
+  "artist": "Bilinmiyor"
+ }
 }

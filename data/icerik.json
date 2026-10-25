@@ -1,5 +1,5 @@
 {
- "surum": "2026-10-24T23:24:53Z",
+ "surum": "2026-10-25T00:34:25Z",
  "isimler": {
   "abdulkadir-geylani": {
    "ad": "Abdülkadir Geylani",
@@ -81,7 +81,14 @@
    "ozet": "Kadiriyye tarikatının kurucusu; tasavvufu dinin kurallarıyla birlikte ve herkese açık vaazlarla yaşatan Bağdat şeyhi.",
    "sorun": "Tasavvufun kendinden geçmiş coşkusu ile dinin kuralları arasında açılan boşluğu kapatmak; manevi derinliği halkın anlayacağı, kurala bağlı bir yolla yaşatmak.",
    "yer": "Geylan (Kuzey İran) doğumlu, Bağdat",
-   "yil": "1077–1166"
+   "yil": "1077–1166",
+   "foto": "foto/abdulkadir-geylani.jpg",
+   "fotoNot": "Sonraki yüzyıllardan temsili minyatür",
+   "fotoKaynak": {
+    "artist": "Bilinmiyor",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Shaykh_%27Abd_al_Qadir_Jalani.jpg"
+   }
   },
   "ahmet-cemal": {
    "ad": "Ahmet Cemal",
@@ -275,7 +282,14 @@
    "ozet": "Mantığı, bilimi ve ahlakı ilk kez sistemli hâle getiren; her şeyin içinde bir amaç taşıdığını söyleyen filozof. İslam dünyasında 'ilk öğretmen'.",
    "sorun": "Hocasının 'asıl gerçek başka bir dünyada' fikrini ikna edici bulmadı; değişen, büyüyen, çürüyen bu dünyanın kendisini anlamak için her alanın bir bilgi haritasını çıkarmaya çalıştı (bir bitkinin nasıl büyüdüğünü göklere bakarak değil, bitkiyi inceleyerek anlamak gibi).",
    "yer": "Stageira doğumlu, Atina",
-   "yil": "MÖ 384–322"
+   "yil": "MÖ 384–322",
+   "foto": "foto/aristoteles.jpg",
+   "fotoNot": "Mermer büst, Roma kopyası",
+   "fotoKaynak": {
+    "artist": "Lysippos'tan Roma kopyası",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Aristotle_Altemps_Inv8575.jpg"
+   }
   },
   "arsimet": {
    "ad": "Arşimet",
@@ -357,7 +371,14 @@
    "ozet": "Kaldıracı, suyun kaldırma kuvvetini ve sonsuz yaklaşmayla hesap yapmayı ilk kez sistemli düşünen antik çağın en büyük matematikçisi.",
    "sorun": "Ölçülmesi imkânsız görünen şeyleri ölçmenin yolunu bulmak: bir dairenin alanı, bir tacın içindeki gümüş, evreni dolduracak kum taneleri.",
    "yer": "Siraküza (Sicilya)",
-   "yil": "MÖ y. 287–212"
+   "yil": "MÖ y. 287–212",
+   "foto": "foto/arsimet.jpg",
+   "fotoNot": "1620'de hayal edilmiş portre",
+   "fotoKaynak": {
+    "artist": "Domenico Fetti",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg"
+   }
   },
   "bach": {
    "ad": "Johann Sebastian Bach",
@@ -444,7 +465,13 @@
    "ozet": "Birbirinden bağımsız birçok melodiyi aynı anda kusursuz bir uyum içinde çaldıran Barok müziğin ustası; Leibniz'in çağdaşı.",
    "sorun": "Birbirinden bağımsız birçok sesi tek bir kusursuz uyumda birleştirmek ve bunu her pazar yeni bir müzikle Tanrı'ya sunmak.",
    "yer": "Eisenach doğumlu; Weimar, Köthen, Leipzig",
-   "yil": "1685–1750"
+   "yil": "1685–1750",
+   "foto": "foto/bach.jpg",
+   "fotoKaynak": {
+    "artist": "Elias Gottlob Haussmann",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Johann_Sebastian_Bach.jpg"
+   }
   },
   "baumgarten": {
    "ad": "Alexander Gottlieb Baumgarten",
@@ -655,7 +682,13 @@
    "ozet": "Saatin ölçtüğü zaman ile yaşanan zamanın farklı olduğunu söyleyen; Ulus Baker'in 'ayrıcalıklı an / herhangi bir an' ayrımının asıl kaynağı.",
    "sorun": "Bilimin zamanı saniyelere, kesitlere böldüğünü, oysa yaşadığımız zamanın bir akış olduğunu göstermek; hayatı, belleği ve özgürlüğü mekanik bir dünyaya indirgemeden anlamak.",
    "yer": "Paris",
-   "yil": "1859–1941"
+   "yil": "1859–1941",
+   "foto": "foto/bergson.jpg",
+   "fotoKaynak": {
+    "artist": "Henri Manuel",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Henri_Bergson_02.jpg"
+   }
   },
   "brunelleschi": {
    "ad": "Filippo Brunelleschi",
@@ -737,7 +770,14 @@
    "ozet": "Doğrusal perspektifi deneyle gösteren ilk kişi; Floransa Katedrali'nin dev kubbesini iskelesiz yükselten mimar.",
    "sorun": "Üç boyutlu dünyayı düz bir yüzeyde 'doğru' göstermenin ve dev bir kubbeyi iskelesiz yükseltmenin yolunu bulmak.",
    "yer": "Floransa",
-   "yil": "1377–1446"
+   "yil": "1377–1446",
+   "foto": "foto/brunelleschi.jpg",
+   "fotoNot": "Masaccio'nun freskinden ayrıntı",
+   "fotoKaynak": {
+    "artist": "Masaccio",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Masaccio,_cappella_brancacci,_san_pietro_in_cattedra._ritratto_di_filippo_brunelleschi-184.jpg"
+   }
   },
   "caravaggio": {
    "ad": "Caravaggio",
@@ -819,7 +859,13 @@
    "ozet": "Azizleri sokaktaki insanların yüzleriyle, karanlığın içinden çıkan sert bir ışıkla resmeden; Barok resmin en çalkantılı ustası.",
    "sorun": "Kutsal hikâyeleri gerçek insanların yüzlerine ve sert bir ışığa taşıyarak izleyiciye tam orada olduğunu hissettirmek.",
    "yer": "Milano doğumlu; Roma, Napoli, Malta, Sicilya",
-   "yil": "1571–1610"
+   "yil": "1571–1610",
+   "foto": "foto/caravaggio.jpg",
+   "fotoKaynak": {
+    "artist": "Ottavio Leoni",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Bild-Ottavio_Leoni,_Caravaggio.jpg"
+   }
   },
   "cezanne": {
    "ad": "Paul Cézanne",
@@ -925,7 +971,13 @@
    "ozet": "Bir elmayı tek başına bir dünya gibi resmeden; doğayı geometrik biçimler ve renk lekeleriyle yeniden kuran, modern resmin babası sayılan ressam.",
    "sorun": "İzlenimcilerin yakaladığı anlık ışığı şeylerin kalıcı yapısıyla birleştirmek; doğayı sağlam biçimlerle yeniden kurmak.",
    "yer": "Aix-en-Provence (Fransa)",
-   "yil": "1839–1906"
+   "yil": "1839–1906",
+   "foto": "foto/cezanne.jpg",
+   "fotoKaynak": {
+    "artist": "Bilinmiyor",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Paul-Cezanne.jpg"
+   }
   },
   "deleuze": {
    "ad": "Gilles Deleuze",
@@ -1241,7 +1293,13 @@
    "ozet": "Her şeyden şüphe edip 'düşünüyorum, öyleyse varım' kesinliğine varan; insanı tanımlama biçimini değiştiren modern düşüncenin kurucusu.",
    "sorun": "Okulda öğretilen her şeyin şüpheli olduğunu gördü; hiçbir şüphenin sarsamayacağı tek bir sağlam nokta bulup bütün bilgiyi onun üzerine yeniden kurmak istedi.",
    "yer": "La Haye (Fransa) doğumlu; 20 yıl Hollanda; Stockholm'de öldü",
-   "yil": "1596–1650"
+   "yil": "1596–1650",
+   "foto": "foto/descartes.jpg",
+   "fotoKaynak": {
+    "artist": "Frans Hals'tan sonra",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Frans_Hals_-_Portret_van_Ren%C3%A9_Descartes.jpg"
+   }
   },
   "durer": {
    "ad": "Albrecht Dürer",
@@ -1323,7 +1381,14 @@
    "ozet": "İtalyan perspektifini Kuzey Avrupa'ya taşıyan, gravürleri ve kendi portreleriyle ünlü Alman ressam.",
    "sorun": "İtalya'da öğrendiği perspektifi ve oranları Kuzey'in ayrıntıcı geleneğiyle birleştirmek; sanatı bir esnaf işi olmaktan çıkarıp bilgiye dayanan bir uğraşa dönüştürmek.",
    "yer": "Nürnberg",
-   "yil": "1471–1528"
+   "yil": "1471–1528",
+   "foto": "foto/durer.jpg",
+   "fotoNot": "Kendi portresi, 1500",
+   "fotoKaynak": {
+    "artist": "Albrecht Dürer",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:D%C3%BCrer_Alte_Pinakothek.jpg"
+   }
   },
   "empedokles": {
    "ad": "Empedokles",
@@ -1419,7 +1484,14 @@
    "ozet": "Evreni dört element ve sevgi-nefret ile açıklayan, Etna yanardağına atladığı anlatılan şair-filozof.",
    "sorun": "Bazı filozoflar her şeyin tek bir maddeden çıktığını, Parmenides ise değişimin bir yanılsama olduğunu söylüyordu. Empedokles hem değişimin gerçek olduğunu hem de hiçbir şeyin yoktan var olmadığını aynı anda açıklamaya çalıştı.",
    "yer": "Akragas (Sicilya)",
-   "yil": "MÖ y. 494–434"
+   "yil": "MÖ y. 494–434",
+   "foto": "foto/empedokles.jpg",
+   "fotoNot": "Sonradan yapılmış temsili gravür",
+   "fotoKaynak": {
+    "artist": "Bilinmiyor",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Empedokles.jpeg"
+   }
   },
   "foucault": {
    "ad": "Michel Foucault",
@@ -1524,7 +1596,14 @@
    "ozet": "Hapishaneden hastaneye, okuldan cinselliğe kadar modern toplumun insanı nasıl şekillendirdiğini inceleyen; iktidarın yalnızca yukarıdan baskı değil, her yere yayılmış bir ağ olduğunu gösteren Fransız düşünür.",
    "sorun": "Modern toplumun 'normal', 'deli', 'suçlu' gibi kategorileri nasıl ürettiğini ve bunlarla insanları nasıl biçimlendirdiğini göstermek.",
    "yer": "Poitiers doğumlu; Paris",
-   "yil": "1926–1984"
+   "yil": "1926–1984",
+   "foto": "foto/foucault.jpg",
+   "fotoNot": "Kelimeler ve Şeyler'in 1970 kapağından",
+   "fotoKaynak": {
+    "artist": "Jerry Bauer",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Photo_of_Michel_Foucault_on_1970_dustjacket_of_The_Order_of_Things.jpg"
+   }
   },
   "francis-bacon": {
    "ad": "Francis Bacon",
@@ -1600,7 +1679,13 @@
    "ozet": "Bilginin kitaplardan değil deneyden ve gözlemden gelmesi gerektiğini söyleyen; bilinen her şeyi toplayıp ayıklamak isteyen İngiliz devlet adamı.",
    "sorun": "Bilginin ilerlemediğini, kitaptan kitaba aynı şeylerin aktarıldığını gördü; doğayı sorgulayarak yeni bilgi üretecek bir yöntem kurmak istedi.",
    "yer": "Londra",
-   "yil": "1561–1626"
+   "yil": "1561–1626",
+   "foto": "foto/francis-bacon.jpg",
+   "fotoKaynak": {
+    "artist": "Paul van Somer I",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Somer_Francis_Bacon.jpg"
+   }
   },
   "freud": {
    "ad": "Sigmund Freud",
@@ -1724,7 +1809,13 @@
    "ozet": "İnsanın kendi zihninin efendisi olmadığını, davranışlarımızı farkında olmadığımız bir bilinçdışının yönettiğini söyleyen psikanalizin kurucusu.",
    "sorun": "Bedende hiçbir hasar olmadan ortaya çıkan hastalıkları, rüyaları, garip davranışları açıklamak; insanın kendi zihninin bilmediği tarafını anlamak ve konuşarak iyileştirmek.",
    "yer": "Freiberg (Moravya, bugün Çekya) doğumlu; Viyana, Londra",
-   "yil": "1856–1939"
+   "yil": "1856–1939",
+   "foto": "foto/freud.jpg",
+   "fotoKaynak": {
+    "artist": "Max Halberstadt",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Sigmund_Freud,_by_Max_Halberstadt_(cropped).jpg"
+   }
   },
   "galileo": {
    "ad": "Galileo Galilei",
@@ -1830,7 +1921,13 @@
    "ozet": "Gökyüzüne teleskopu çeviren, düşen cisimleri ölçen ve doğanın matematikle yazıldığını söyleyen modern fiziğin kurucusu.",
    "sorun": "Hareketi ve gökyüzünü Aristoteles'in kitaplarına değil, ölçüme ve matematiğe dayanarak açıklamak.",
    "yer": "Pisa doğumlu; Padova, Floransa",
-   "yil": "1564–1642"
+   "yil": "1564–1642",
+   "foto": "foto/galileo.jpg",
+   "fotoKaynak": {
+    "artist": "Justus Sustermans",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Galileo_Galilei_(1564-1642)_RMG_BHC2700.tiff"
+   }
   },
   "gazali": {
    "ad": "Gazali",
@@ -1937,7 +2034,14 @@
    "ozet": "Şöhretinin zirvesinde her şeyden şüphe edip kürsüsünü bırakan; felsefeyi eleştirip tasavvufu İslam düşüncesinin merkezine taşıyan âlim.",
    "sorun": "Ne felsefenin ne de kuru din bilgisinin insana kesinlik ve iç huzur vermediğini gördü; aklın sınırını ve kalbin bilgisini birlikte sağlam bir zemine oturtmaya çalıştı.",
    "yer": "Tus (Horasan) doğumlu; Bağdat, Şam, Kudüs; Tus'ta öldü",
-   "yil": "1058–1111"
+   "yil": "1058–1111",
+   "foto": "foto/gazali.jpg",
+   "fotoNot": "Modern dönemde yapılmış temsili çizim",
+   "fotoKaynak": {
+    "artist": "Bilinmiyor",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Al-Ghaz%C4%81l%C4%AB,_Sayr_mulhimah_min_al-Sharq_wa-al-Gharb.png"
+   }
   },
   "giordano-bruno": {
    "ad": "Giordano Bruno",
@@ -2028,7 +2132,14 @@
    "ozet": "Evrenin sonsuz olduğunu, yıldızların başka güneşler olduğunu söyleyen; inancından dönmediği için diri diri yakılan asi keşiş.",
    "sorun": "Kopernik'in açtığı kapıdan bir adım daha geçmek: merkezi olmayan, sonsuz ve canlı bir evren fikrini savunmak.",
    "yer": "Nola (Napoli yakını) doğumlu; Avrupa'yı dolaştı, Roma'da yakıldı",
-   "yil": "1548–1600"
+   "yil": "1548–1600",
+   "foto": "foto/giordano-bruno.jpg",
+   "fotoNot": "Opere kitabındaki gravür",
+   "fotoKaynak": {
+    "artist": "Wellcome Collection",
+    "lic": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Giordano_Bruno_in_%22Opere%22_Wellcome_L0015152_(cropped).jpg"
+   }
   },
   "hegel": {
    "ad": "Georg Wilhelm Friedrich Hegel",
@@ -2147,7 +2258,14 @@
    "ozet": "Tarihi aklın ve özgürlüğün kendini adım adım gerçekleştirmesi olarak gören; her şeyi çelişkiler üzerinden ilerleyen bir süreç olarak düşünen Alman filozof.",
    "sorun": "Değişimi, çatışmayı ve tarihi düzensiz bir kaos olarak değil anlamlı bir süreç olarak açıklamak; Kant'ın birbirinden ayırdığı şeyleri (özne ile dünya, akıl ile tarih) yeniden birleştirmek.",
    "yer": "Stuttgart doğumlu; Jena, Nürnberg, Heidelberg, Berlin",
-   "yil": "1770–1831"
+   "yil": "1770–1831",
+   "foto": "foto/hegel.jpg",
+   "fotoNot": "1831, ölmeden kısa süre önce",
+   "fotoKaynak": {
+    "artist": "Jakob Schlesinger",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Jakob_Schlesinger_-_Hegel_1831.jpg"
+   }
   },
   "hobbes": {
    "ad": "Thomas Hobbes",
@@ -2238,7 +2356,13 @@
    "ozet": "İnsanların doğal hâlinin herkesin herkese karşı savaşı olduğunu, düzen için güçlü bir devlet gerektiğini söyleyen; düşüncenin de maddi olduğunu savunan İngiliz.",
    "sorun": "İç savaşın kaosunu gördükten sonra insanların birbirini yok etmeden bir arada nasıl yaşayabileceğini, toplumsal düzenin neye dayanması gerektiğini bulmak.",
    "yer": "Malmesbury (İngiltere) doğumlu; Paris'te sürgün, Londra",
-   "yil": "1588–1679"
+   "yil": "1588–1679",
+   "foto": "foto/hobbes.jpg",
+   "fotoKaynak": {
+    "artist": "John Michael Wright",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Thomas_Hobbes_by_John_Michael_Wright_(colour)_(3x4_cropped).jpg"
+   }
   },
   "ibn-arabi": {
    "ad": "İbn Arabi",
@@ -2368,7 +2492,14 @@
    "ozet": "'En büyük şeyh'; varlığın tek olduğu ve insanın Allah'ın aynası olduğu fikirleriyle tasavvufun en büyük düşünürü.",
    "sorun": "Tanrı ile dünya, bir ile çok, bir inanç ile başka bir inanç arasındaki ilişkiyi tek büyük bir vizyonda birleştirmek; her şeyin Hakk'ın bir görünüşü olduğunu ve insanın bunun aynası olabileceğini anlatmak.",
    "yer": "Mürsiye (Endülüs) doğumlu, Şam",
-   "yil": "1165–1240"
+   "yil": "1165–1240",
+   "foto": "foto/ibn-arabi.jpg",
+   "fotoNot": "Şam'daki türbesi",
+   "fotoKaynak": {
+    "artist": "Omar.Hafez",
+    "lic": "CC0",
+    "page": "https://commons.wikimedia.org/wiki/File:%D9%82%D8%A8%D8%B1_%D8%A7%D9%84%D8%B4%D9%8A%D8%AE_%D9%85%D8%AD%D9%8A%D9%8A_%D8%A7%D9%84%D8%AF%D9%8A%D9%86_%D8%A8%D9%86_%D8%B9%D8%B1%D8%A8%D9%8A.jpg"
+   }
   },
   "jul-sezar": {
    "ad": "Jül Sezar",
@@ -2426,7 +2557,14 @@
    "ozet": "Rubicon nehrini geçerek Roma Cumhuriyeti'nin sonunu getiren general ve devlet adamı; Leibniz'in 'mümkün dünyalar' örneğinin kahramanı.",
    "sorun": "Birkaç soylu ailenin çekiştirdiği, çürümüş Roma Cumhuriyeti'nde güç kazanmak ve devleti kendi elinde toplamak.",
    "yer": "Roma",
-   "yil": "MÖ 100–44"
+   "yil": "MÖ 100–44",
+   "foto": "foto/jul-sezar.jpg",
+   "fotoNot": "Mermer büst",
+   "fotoKaynak": {
+    "artist": "Ángel M. Felicísimo",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_C%C3%A9sar_(26724093101)_(cropped).jpg"
+   }
   },
   "kant": {
    "ad": "Immanuel Kant",
@@ -2569,7 +2707,13 @@
    "ozet": "Dünyayı olduğu gibi değil, zihnimizin kalıplarından geçtiği hâliyle bildiğimizi söyleyen; Descartes'ın 'ben bir ruhum' sonucunu eleştiren filozof.",
    "sorun": "Şüphecilik karşısında bilimin nasıl mümkün olduğunu göstermek ve aynı zamanda ahlakı ve özgürlüğü korumak: aklın neyi bilebileceğinin ve neyi bilemeyeceğinin sınırını çizmek.",
    "yer": "Königsberg, Prusya (bugün Kaliningrad, Rusya)",
-   "yil": "1724–1804"
+   "yil": "1724–1804",
+   "foto": "foto/kant.jpg",
+   "fotoKaynak": {
+    "artist": "Johann Gottlieb Becker",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg"
+   }
   },
   "kepler": {
    "ad": "Johannes Kepler",
@@ -2670,7 +2814,13 @@
    "ozet": "Gezegenlerin çember değil elips çizdiğini bulan; Ulus Baker'e göre Rönesans'ın en önemli adımını atan adam.",
    "sorun": "Gezegenlerin yollarını en hassas gözlemlerle birebir örtüşecek biçimde, bir 'göksel geometri' olarak bulmak.",
    "yer": "Weil der Stadt (Almanya) doğumlu; Graz, Prag, Linz",
-   "yil": "1571–1630"
+   "yil": "1571–1630",
+   "foto": "foto/kepler.jpg",
+   "fotoKaynak": {
+    "artist": "August Köhler",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:JKepler.jpg"
+   }
   },
   "kinikler": {
    "ad": "Kinikler",
@@ -2752,7 +2902,14 @@
    "sorun": "Mutluluğu mala, şana, itibara bağlamanın insanı köleleştirdiğini gördüler; en az şeyle, toplumun anlamsız kurallarına boyun eğmeden özgür yaşamanın mümkün olduğunu kendi hayatlarıyla göstermeye çalıştılar.",
    "tur": "akim",
    "yer": "Atina; Diyojen Sinop doğumlu",
-   "yil": "MÖ 4. yüzyıldan itibaren"
+   "yil": "MÖ 4. yüzyıldan itibaren",
+   "foto": "foto/kinikler.jpg",
+   "fotoNot": "Bir Kinik filozof heykeli, Roma",
+   "fotoKaynak": {
+    "artist": "LuciusCommons",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Cinico_Capitolini.jpg"
+   }
   },
   "kopernik": {
    "ad": "Kopernik",
@@ -2834,7 +2991,13 @@
    "ozet": "Güneş'i evrenin merkezine koyan, ama gezegenleri hâlâ kusursuz çemberlerde döndüren sessiz bir din görevlisi.",
    "sorun": "Gezegenlerin gökteki karmaşık hareketlerini daha sade ve tutarlı bir düzenle açıklamak.",
    "yer": "Toruń (Polonya) doğumlu, Frombork",
-   "yil": "1473–1543"
+   "yil": "1473–1543",
+   "foto": "foto/kopernik.jpg",
+   "fotoKaynak": {
+    "artist": "Bilinmiyor",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Nikolaus_Kopernikus_MOT.jpg"
+   }
   },
   "leeuwenhoek": {
    "ad": "Antoni van Leeuwenhoek",
@@ -2896,7 +3059,13 @@
    "ozet": "Üniversite görmemiş bir kumaş tüccarı; kendi yaptığı minik merceklerle bir su damlasının içinde koca bir canlılar dünyası olduğunu ilk gören insan.",
    "sorun": "Çıplak gözün göremediği dünyayı görmek; suyun, kanın, dişin içinde ne olduğunu kendi yaptığı merceklerle merak etmek.",
    "yer": "Delft (Hollanda)",
-   "yil": "1632–1723"
+   "yil": "1632–1723",
+   "foto": "foto/leeuwenhoek.jpg",
+   "fotoKaynak": {
+    "artist": "Jan Verkolje",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Anthonie_van_Leeuwenhoek_(1632-1723)._Natuurkundige_te_Delft_Rijksmuseum_SK-A-957.jpeg"
+   }
   },
   "leibniz": {
    "ad": "Gottfried Wilhelm Leibniz",
@@ -3070,7 +3239,13 @@
    "ozet": "Hem filozof hem matematikçi hem diplomat; evrenin 'mümkün dünyaların en iyisi' olduğunu ve her şeyin bütün evreni yansıttığını söyleyen çok yönlü dahi.",
    "sorun": "Ayrı düşen her şeyi tek bir uyum içinde birleştirmek: Descartes'ın mekanik dünyasıyla Tanrı'nın iyiliğini, sonsuz küçükle sonsuz büyüğü, Katoliklerle Protestanları.",
    "yer": "Leipzig doğumlu; Paris, Hannover",
-   "yil": "1646–1716"
+   "yil": "1646–1716",
+   "foto": "foto/leibniz.jpg",
+   "fotoKaynak": {
+    "artist": "Christoph Bernhard Francke",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Christoph_Bernhard_Francke_-_Bildnis_des_Philosophen_Leibniz_(ca._1695).jpg"
+   }
   },
   "leonardo-da-vinci": {
    "ad": "Leonardo da Vinci",
@@ -3171,7 +3346,14 @@
    "ozet": "Ressam, mühendis, anatomist; görmenin bilmek olduğuna inanan Rönesans insanı. Ulus Baker onu sanıldığı kadar ayrıcalıklı bulmuyor.",
    "sorun": "Doğanın nasıl işlediğini (uçuş, su, ışık, insan bedeni) yalnızca gözlemle anlamak ve bu bilgiyi resme, makineye, her şeye dökmek.",
    "yer": "Vinci doğumlu; Floransa, Milano, Amboise (Fransa)",
-   "yil": "1452–1519"
+   "yil": "1452–1519",
+   "foto": "foto/leonardo-da-vinci.jpg",
+   "fotoNot": "Öğrencisi Melzi'nin çizimi",
+   "fotoKaynak": {
+    "artist": "Francesco Melzi (atfedilen)",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Francesco_Melzi_-_Portrait_of_Leonardo_(colour_correction).png"
+   }
   },
   "michelangelo": {
    "ad": "Michelangelo Buonarroti",
@@ -3263,7 +3445,13 @@
    "ozet": "Kendini her şeyden önce heykeltıraş sayan; Davut heykelini ve Sistina Şapeli'nin tavanını yapan Rönesans ustası.",
    "sorun": "Taşın içindeki kusursuz insan bedenini ortaya çıkarmak; kutsal olanı bedenin gücüyle ve güzelliğiyle göstermek.",
    "yer": "Caprese doğumlu; Floransa, Roma",
-   "yil": "1475–1564"
+   "yil": "1475–1564",
+   "foto": "foto/michelangelo.jpg",
+   "fotoKaynak": {
+    "artist": "Daniele da Volterra (atfedilen)",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Michelangelo_Daniele_da_Volterra_(dettaglio).jpg"
+   }
   },
   "newton": {
    "ad": "Isaac Newton",
@@ -3344,7 +3532,14 @@
    "ozet": "Göklerle yeryüzünü tek bir çekim yasasıyla birleştiren; hareketi sonsuz küçük anlara bölen hesabı bulan, aynı zamanda simyacı ve kehanet yorumcusu.",
    "sorun": "Gökteki gezegenlerin hareketi ile yere düşen cisimleri tek bir yasayla açıklamak; değişimi hesaplamanın matematiğini kurmak.",
    "yer": "Woolsthorpe (İngiltere) doğumlu; Cambridge, Londra",
-   "yil": "1643–1727"
+   "yil": "1643–1727",
+   "foto": "foto/newton.jpg",
+   "fotoNot": "1689",
+   "fotoKaynak": {
+    "artist": "Godfrey Kneller",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sir_Isaac_Newton,_1689_(brightened).jpg"
+   }
   },
   "pascal": {
    "ad": "Blaise Pascal",
@@ -3439,7 +3634,13 @@
    "ozet": "Hesap makinesi icat eden matematik dahisi; sonsuz evrende insanın ne kadar küçük ve kırılgan olduğunu en derinden hisseden 17. yüzyıl Hristiyan düşünürü.",
    "sorun": "Yeni bilimin gösterdiği sonsuz evrende insanın yerini ve anlamını bulmak; aklın yetmediği yerde neden imana ihtiyaç olduğunu göstermek.",
    "yer": "Clermont-Ferrand doğumlu, Paris",
-   "yil": "1623–1662"
+   "yil": "1623–1662",
+   "foto": "foto/pascal.jpg",
+   "fotoKaynak": {
+    "artist": "François II Quesnel'den kopya",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Blaise_Pascal_Versailles,_circa_1690.JPG"
+   }
   },
   "platon": {
    "ad": "Platon",
@@ -3603,7 +3804,14 @@
    "ozet": "Gördüğümüz dünyanın asıl gerçekliğin bir gölgesi olduğunu söyleyen; Batı felsefesinin temel sorularını diyaloglarla kuran filozof.",
    "sorun": "Sokrates'i idam eden bir şehirde doğruyu ve yanlışı, kalabalığın değişen fikirlerinden bağımsız sağlam bir yere koymak; herkesin 'bence' dediği bir dünyada değişmeyen bir ölçü bulmak.",
    "yer": "Atina",
-   "yil": "MÖ 427–347"
+   "yil": "MÖ 427–347",
+   "foto": "foto/platon.jpg",
+   "fotoNot": "Silanion'dan Roma kopyası büst",
+   "fotoKaynak": {
+    "artist": "Marie-Lan Nguyen (fotoğraf)",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.png"
+   }
   },
   "schopenhauer": {
    "ad": "Arthur Schopenhauer",
@@ -3733,7 +3941,14 @@
    "ozet": "Dünyanın özünü kör ve doymak bilmez bir istek olarak gören karamsar filozof; bilinçdışı fikrinin öncülerinden.",
    "sorun": "Hayatın neden bu kadar acı dolu olduğunu, insanı gerçekte neyin yönettiğini ve bu acıdan nasıl kurtulunabileceğini anlamak.",
    "yer": "Danzig (bugün Gdańsk) doğumlu, Frankfurt",
-   "yil": "1788–1860"
+   "yil": "1788–1860",
+   "foto": "foto/schopenhauer.jpg",
+   "fotoNot": "1859",
+   "fotoKaynak": {
+    "artist": "Johann Schäfer",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Arthur_Schopenhauer_by_J_Sch%C3%A4fer,_1859b.jpg"
+   }
   },
   "skolastik": {
    "ad": "Skolastik",
@@ -3850,7 +4065,14 @@
    "sorun": "Kutsal Kitap ile Aristoteles'in aklını, inanç ile mantığı birbiriyle çelişkiye düşürmeden bir arada tutmak.",
    "tur": "akim",
    "yer": "Avrupa'nın manastır okulları ve üniversiteleri: Paris, Oxford, Bologna",
-   "yil": "y. 1050–1400"
+   "yil": "y. 1050–1400",
+   "foto": "foto/skolastik.jpg",
+   "fotoNot": "Bologna'da bir ders, 14. yüzyıl",
+   "fotoKaynak": {
+    "artist": "Laurentius de Voltolina",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Laurentius_de_Voltolina_Vorlesung_vor_Studenten_-_Min_1233_-_Kupferstichkabinett_Berlin.jpg"
+   }
   },
   "sokrates": {
    "ad": "Sokrates",
@@ -3949,7 +4171,14 @@
    "ozet": "Hiç yazmayan, sokakta herkese soru sorarak felsefeyi gökten indirip insanın kendisine çeviren Atinalı.",
    "sorun": "İnsanlar en önemli konularda (adalet, cesaret, iyilik) bilmedikleri şeyleri bildiklerini sanıyordu. Sokrates bu sahte bilgiyi sorularla sökmeye ve herkesi kendi hayatını sorgulamaya çağırmaya çalıştı.",
    "yer": "Atina",
-   "yil": "MÖ 470–399"
+   "yil": "MÖ 470–399",
+   "foto": "foto/sokrates.jpg",
+   "fotoNot": "Mermer büst, Louvre",
+   "fotoKaynak": {
+    "artist": "Lysippos'tan kopya (?)",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Socrates_Louvre.jpg"
+   }
   },
   "spinoza": {
    "ad": "Baruch Spinoza",
@@ -4090,7 +4319,13 @@
    "ozet": "Tanrı ile doğayı tek bir şey sayan, duyguları matematik kesinliğiyle inceleyen, cemaatinden dışlanmış mercek ustası.",
    "sorun": "Tanrı, doğa, insan zihni ve duygular arasındaki ilişkiyi hiçbir boş inanca başvurmadan, geometri kesinliğiyle açıklamak; insanın duygularına esir olmadan özgür yaşamasının yolunu göstermek.",
    "yer": "Amsterdam doğumlu, Lahey",
-   "yil": "1632–1677"
+   "yil": "1632–1677",
+   "foto": "foto/spinoza.jpg",
+   "fotoKaynak": {
+    "artist": "Bilinmiyor",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Spinoza.jpg"
+   }
   },
   "ulus-baker": {
    "ad": "Ulus Baker",
@@ -4249,7 +4484,14 @@
    "ozet": "Gündelik bir odanın içine düşen ışığı, bir mektup okuyan kadını, süt döken hizmetçiyi büyük sessiz anlara çeviren Delftli ressam.",
    "sorun": "Sıradan bir odadaki ışığı ve sessizliği büyük tarih tablolarının ciddiyetiyle resmetmek.",
    "yer": "Delft (Hollanda)",
-   "yil": "1632–1675"
+   "yil": "1632–1675",
+   "foto": "foto/vermeer.jpg",
+   "fotoNot": "1656 tarihli bir tablosundaki figür; kendisi olduğu düşünülüyor",
+   "fotoKaynak": {
+    "artist": "Johannes Vermeer",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:Cropped_version_of_Jan_Vermeer_van_Delft_002.jpg"
+   }
   },
   "whitehead": {
    "ad": "Alfred North Whitehead",
@@ -4335,7 +4577,13 @@
    "ozet": "Dünyanın 'şeylerden' değil 'olaylardan' oluştuğunu söyleyen; matematikçiyken altmış üç yaşında filozof olan İngiliz düşünür.",
    "sorun": "Modern bilimin dünyayı ölü, durağan parçalar olarak görmesine itiraz etmek; evreni yaşayan, birbirine bağlı olaylar olarak düşünmek.",
    "yer": "Ramsgate (İngiltere) doğumlu; Cambridge, Londra, Harvard",
-   "yil": "1861–1947"
+   "yil": "1861–1947",
+   "foto": "foto/whitehead.jpg",
+   "fotoKaynak": {
+    "artist": "Bilinmiyor",
+    "lic": "Kamu malı",
+    "page": "https://commons.wikimedia.org/wiki/File:ANWhitehead.jpg"
+   }
   }
  },
  "kayitlar": {
